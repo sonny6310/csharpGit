@@ -1,0 +1,5 @@
+C:\ITCookbook\CharacterVariable\CharacterVariable\bin\Debug\CharacterVariable.exe.config
+C:\ITCookbook\CharacterVariable\CharacterVariable\bin\Debug\CharacterVariable.exe
+C:\ITCookbook\CharacterVariable\CharacterVariable\bin\Debug\CharacterVariable.pdb
+C:\ITCookbook\CharacterVariable\CharacterVariable\obj\Debug\CharacterVariable.exe
+C:\ITCookbook\CharacterVariable\CharacterVariable\obj\Debug\CharacterVariable.pdb

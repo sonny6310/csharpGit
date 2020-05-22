@@ -1,0 +1,6 @@
+C:\Users\305\Desktop\20200519\part3\If\If\bin\Debug\If.exe.config
+C:\Users\305\Desktop\20200519\part3\If\If\bin\Debug\If.exe
+C:\Users\305\Desktop\20200519\part3\If\If\bin\Debug\If.pdb
+C:\Users\305\Desktop\20200519\part3\If\If\obj\Debug\If.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200519\part3\If\If\obj\Debug\If.exe
+C:\Users\305\Desktop\20200519\part3\If\If\obj\Debug\If.pdb

@@ -1,0 +1,5 @@
+C:\ITCookbook\SumMethod\bin\Debug\SumMethod.exe.config
+C:\ITCookbook\SumMethod\bin\Debug\SumMethod.exe
+C:\ITCookbook\SumMethod\bin\Debug\SumMethod.pdb
+C:\ITCookbook\SumMethod\obj\Debug\SumMethod.exe
+C:\ITCookbook\SumMethod\obj\Debug\SumMethod.pdb

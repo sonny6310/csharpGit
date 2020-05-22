@@ -1,0 +1,2 @@
+C:\ITCookbook\코드\1장\WriteAndWriteLine\bin\Debug\WriteAndWriteLine.exe.config
+\\192.168.0.198\share\c#\1장\WriteAndWriteLine\bin\Debug\WriteAndWriteLine.exe.config

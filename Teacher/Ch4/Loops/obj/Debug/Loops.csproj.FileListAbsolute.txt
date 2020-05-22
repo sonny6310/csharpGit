@@ -1,0 +1,5 @@
+C:\ITCookbook\코드\4장\Loops\bin\Debug\Loops.exe.config
+C:\ITCookbook\코드\4장\Loops\bin\Debug\Loops.exe
+C:\ITCookbook\코드\4장\Loops\bin\Debug\Loops.pdb
+C:\ITCookbook\코드\4장\Loops\obj\Debug\Loops.exe
+C:\ITCookbook\코드\4장\Loops\obj\Debug\Loops.pdb

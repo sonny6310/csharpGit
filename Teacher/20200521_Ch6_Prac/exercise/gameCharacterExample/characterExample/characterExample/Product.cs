@@ -1,0 +1,6 @@
+﻿namespace characterExample
+{
+    class Product
+    {
+    }
+}

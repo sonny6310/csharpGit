@@ -1,0 +1,8 @@
+C:\ITCookbook\AssignmentOperator\AssignmentOperator\bin\Debug\AssignmentOperator.exe.config
+C:\ITCookbook\AssignmentOperator\AssignmentOperator\bin\Debug\AssignmentOperator.exe
+C:\ITCookbook\AssignmentOperator\AssignmentOperator\bin\Debug\AssignmentOperator.pdb
+C:\ITCookbook\AssignmentOperator\AssignmentOperator\obj\Debug\AssignmentOperator.exe
+C:\ITCookbook\AssignmentOperator\AssignmentOperator\obj\Debug\AssignmentOperator.pdb
+\\192.168.0.198\share\c#\2장\AssignmentOperator\AssignmentOperator\bin\Debug\AssignmentOperator.exe.config
+\\192.168.0.198\share\c#\2장\AssignmentOperator\AssignmentOperator\obj\Debug\AssignmentOperator.exe
+\\192.168.0.198\share\c#\2장\AssignmentOperator\AssignmentOperator\obj\Debug\AssignmentOperator.pdb

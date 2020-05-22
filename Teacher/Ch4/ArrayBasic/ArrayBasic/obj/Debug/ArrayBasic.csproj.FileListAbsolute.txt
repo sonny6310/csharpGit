@@ -1,0 +1,2 @@
+C:\ITCookbook\ArrayBasic\ArrayBasic\bin\Debug\ArrayBasic.exe.config
+\\192.168.0.198\share\c#\4장\ArrayBasic\ArrayBasic\bin\Debug\ArrayBasic.exe.config

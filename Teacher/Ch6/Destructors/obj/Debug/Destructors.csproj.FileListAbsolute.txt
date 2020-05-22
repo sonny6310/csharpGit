@@ -1,0 +1,1 @@
+C:\ITCookbook\코드\6장\Destructors\bin\Debug\Destructors.exe.config

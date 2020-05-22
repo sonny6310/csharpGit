@@ -1,0 +1,8 @@
+C:\ITCookbook\SwitchBasic\SwitchBasic\bin\Debug\SwitchBasic.exe.config
+C:\ITCookbook\SwitchBasic\SwitchBasic\bin\Debug\SwitchBasic.exe
+C:\ITCookbook\SwitchBasic\SwitchBasic\bin\Debug\SwitchBasic.pdb
+C:\ITCookbook\SwitchBasic\SwitchBasic\obj\Debug\SwitchBasic.exe
+C:\ITCookbook\SwitchBasic\SwitchBasic\obj\Debug\SwitchBasic.pdb
+\\192.168.0.198\share\c#\3장\SwitchBasic\SwitchBasic\bin\Debug\SwitchBasic.exe.config
+\\192.168.0.198\share\c#\3장\SwitchBasic\SwitchBasic\obj\Debug\SwitchBasic.exe
+\\192.168.0.198\share\c#\3장\SwitchBasic\SwitchBasic\obj\Debug\SwitchBasic.pdb

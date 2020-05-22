@@ -1,0 +1,8 @@
+C:\ITCookbook\KoreanCharacters\bin\Debug\KoreanCharacters.exe.config
+C:\ITCookbook\KoreanCharacters\bin\Debug\KoreanCharacters.exe
+C:\ITCookbook\KoreanCharacters\bin\Debug\KoreanCharacters.pdb
+C:\ITCookbook\KoreanCharacters\obj\Debug\KoreanCharacters.exe
+C:\ITCookbook\KoreanCharacters\obj\Debug\KoreanCharacters.pdb
+E:\경북산업직업전문학교\빅데이터 UI반 대비 c# 강의 자료\c# 강의안(이동준ver)\예제소스\source\4장\KoreanCharacters\bin\Debug\KoreanCharacters.exe.config
+E:\경북산업직업전문학교\빅데이터 UI반 대비 c# 강의 자료\c# 강의안(이동준ver)\예제소스\source\4장\KoreanCharacters\obj\Debug\KoreanCharacters.exe
+E:\경북산업직업전문학교\빅데이터 UI반 대비 c# 강의 자료\c# 강의안(이동준ver)\예제소스\source\4장\KoreanCharacters\obj\Debug\KoreanCharacters.pdb

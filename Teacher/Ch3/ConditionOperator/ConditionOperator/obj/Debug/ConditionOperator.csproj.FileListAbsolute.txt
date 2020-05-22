@@ -1,0 +1,5 @@
+C:\ITCookbook\ConditionOperator\ConditionOperator\bin\Debug\ConditionOperator.exe.config
+C:\ITCookbook\ConditionOperator\ConditionOperator\bin\Debug\ConditionOperator.exe
+C:\ITCookbook\ConditionOperator\ConditionOperator\bin\Debug\ConditionOperator.pdb
+C:\ITCookbook\ConditionOperator\ConditionOperator\obj\Debug\ConditionOperator.exe
+C:\ITCookbook\ConditionOperator\ConditionOperator\obj\Debug\ConditionOperator.pdb

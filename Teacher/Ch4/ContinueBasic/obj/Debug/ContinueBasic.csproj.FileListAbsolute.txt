@@ -1,0 +1,7 @@
+C:\ITCookbook\ContinueBasic\bin\Debug\ContinueBasic.exe.config
+\\192.168.0.198\share\c#\4장\ContinueBasic\bin\Debug\ContinueBasic.exe.config
+\\192.168.0.198\share\c#\4장\ContinueBasic\bin\Debug\ContinueBasic.exe
+\\192.168.0.198\share\c#\4장\ContinueBasic\bin\Debug\ContinueBasic.pdb
+\\192.168.0.198\share\c#\4장\ContinueBasic\obj\Debug\ContinueBasic.csprojResolveAssemblyReference.cache
+\\192.168.0.198\share\c#\4장\ContinueBasic\obj\Debug\ContinueBasic.exe
+\\192.168.0.198\share\c#\4장\ContinueBasic\obj\Debug\ContinueBasic.pdb

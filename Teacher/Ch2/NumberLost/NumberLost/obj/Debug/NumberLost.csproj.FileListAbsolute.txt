@@ -1,0 +1,5 @@
+C:\ITCookbook\NumberLost\NumberLost\bin\Debug\NumberLost.exe.config
+C:\ITCookbook\NumberLost\NumberLost\bin\Debug\NumberLost.exe
+C:\ITCookbook\NumberLost\NumberLost\bin\Debug\NumberLost.pdb
+C:\ITCookbook\NumberLost\NumberLost\obj\Debug\NumberLost.exe
+C:\ITCookbook\NumberLost\NumberLost\obj\Debug\NumberLost.pdb

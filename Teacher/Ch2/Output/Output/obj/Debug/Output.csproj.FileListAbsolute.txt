@@ -1,0 +1,6 @@
+C:\ITCookbook\Output\Output\bin\Debug\Output.exe.config
+C:\ITCookbook\Output\Output\bin\Debug\Output.exe
+C:\ITCookbook\Output\Output\bin\Debug\Output.pdb
+C:\ITCookbook\Output\Output\obj\Debug\Output.csprojResolveAssemblyReference.cache
+C:\ITCookbook\Output\Output\obj\Debug\Output.exe
+C:\ITCookbook\Output\Output\obj\Debug\Output.pdb

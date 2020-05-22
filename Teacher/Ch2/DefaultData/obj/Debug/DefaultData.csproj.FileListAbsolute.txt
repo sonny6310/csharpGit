@@ -1,0 +1,12 @@
+C:\ITCookbook\코드\2장\DefaultData\bin\Debug\DefaultData.exe.config
+C:\ITCookbook\코드\2장\DefaultData\bin\Debug\DefaultData.exe
+C:\ITCookbook\코드\2장\DefaultData\bin\Debug\DefaultData.pdb
+C:\ITCookbook\코드\2장\DefaultData\obj\Debug\DefaultData.csprojResolveAssemblyReference.cache
+C:\ITCookbook\코드\2장\DefaultData\obj\Debug\DefaultData.exe
+C:\ITCookbook\코드\2장\DefaultData\obj\Debug\DefaultData.pdb
+E:\2015년\03_원고진행\01_C#\피드백\완전원고 중\source\예제\2장\DefaultData\bin\Debug\DefaultData.exe.config
+E:\2015년\03_원고진행\01_C#\피드백\완전원고 중\source\예제\2장\DefaultData\obj\Debug\DefaultData.exe
+E:\2015년\03_원고진행\01_C#\피드백\완전원고 중\source\예제\2장\DefaultData\obj\Debug\DefaultData.pdb
+\\192.168.0.198\share\c#\2장\DefaultData\bin\Debug\DefaultData.exe.config
+\\192.168.0.198\share\c#\2장\DefaultData\obj\Debug\DefaultData.exe
+\\192.168.0.198\share\c#\2장\DefaultData\obj\Debug\DefaultData.pdb

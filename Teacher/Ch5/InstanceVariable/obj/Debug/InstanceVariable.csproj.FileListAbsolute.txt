@@ -1,0 +1,5 @@
+C:\ITCookbook\InstanceVariable\bin\Debug\InstanceVariable.exe.config
+C:\ITCookbook\InstanceVariable\bin\Debug\InstanceVariable.exe
+C:\ITCookbook\InstanceVariable\bin\Debug\InstanceVariable.pdb
+C:\ITCookbook\InstanceVariable\obj\Debug\InstanceVariable.exe
+C:\ITCookbook\InstanceVariable\obj\Debug\InstanceVariable.pdb

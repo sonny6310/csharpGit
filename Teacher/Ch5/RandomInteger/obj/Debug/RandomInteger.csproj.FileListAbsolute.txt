@@ -1,0 +1,5 @@
+C:\ITCookbook\RandomInteger\bin\Debug\RandomInteger.exe.config
+C:\ITCookbook\RandomInteger\bin\Debug\RandomInteger.exe
+C:\ITCookbook\RandomInteger\bin\Debug\RandomInteger.pdb
+C:\ITCookbook\RandomInteger\obj\Debug\RandomInteger.exe
+C:\ITCookbook\RandomInteger\obj\Debug\RandomInteger.pdb

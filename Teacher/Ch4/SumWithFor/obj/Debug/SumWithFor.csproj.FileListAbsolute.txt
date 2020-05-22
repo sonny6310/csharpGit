@@ -1,0 +1,5 @@
+C:\ITCookbook\SumWithFor\bin\Debug\SumWithFor.exe.config
+C:\ITCookbook\SumWithFor\bin\Debug\SumWithFor.exe
+C:\ITCookbook\SumWithFor\bin\Debug\SumWithFor.pdb
+C:\ITCookbook\SumWithFor\obj\Debug\SumWithFor.exe
+C:\ITCookbook\SumWithFor\obj\Debug\SumWithFor.pdb

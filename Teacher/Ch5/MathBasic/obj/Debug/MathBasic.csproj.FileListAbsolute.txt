@@ -1,0 +1,6 @@
+C:\ITCookbook\MathBasic\bin\Debug\MathBasic.exe.config
+C:\ITCookbook\MathBasic\bin\Debug\MathBasic.exe
+C:\ITCookbook\MathBasic\bin\Debug\MathBasic.pdb
+C:\ITCookbook\MathBasic\obj\Debug\MathBasic.csprojResolveAssemblyReference.cache
+C:\ITCookbook\MathBasic\obj\Debug\MathBasic.exe
+C:\ITCookbook\MathBasic\obj\Debug\MathBasic.pdb

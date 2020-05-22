@@ -1,0 +1,5 @@
+C:\ITCookbook\StringToBool\StringToBool\bin\Debug\StringToBool.exe.config
+C:\ITCookbook\StringToBool\StringToBool\bin\Debug\StringToBool.exe
+C:\ITCookbook\StringToBool\StringToBool\bin\Debug\StringToBool.pdb
+C:\ITCookbook\StringToBool\StringToBool\obj\Debug\StringToBool.exe
+C:\ITCookbook\StringToBool\StringToBool\obj\Debug\StringToBool.pdb

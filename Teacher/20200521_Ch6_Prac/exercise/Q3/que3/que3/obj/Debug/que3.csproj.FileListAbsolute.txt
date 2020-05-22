@@ -1,0 +1,9 @@
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\bin\Debug\que3.exe.config
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\bin\Debug\que3.exe
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\bin\Debug\que3.pdb
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\obj\Debug\que3.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\obj\Debug\que3.Form1.resources
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\obj\Debug\que3.Properties.Resources.resources
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\obj\Debug\que3.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\obj\Debug\que3.exe
+C:\Users\305\Desktop\20200521\exercise\Q3\que3\que3\obj\Debug\que3.pdb

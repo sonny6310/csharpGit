@@ -1,0 +1,6 @@
+C:\Users\305\Desktop\20200519\part4\iteration\iter\iter\bin\Debug\iter.exe.config
+C:\Users\305\Desktop\20200519\part4\iteration\iter\iter\bin\Debug\iter.exe
+C:\Users\305\Desktop\20200519\part4\iteration\iter\iter\bin\Debug\iter.pdb
+C:\Users\305\Desktop\20200519\part4\iteration\iter\iter\obj\Debug\iter.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200519\part4\iteration\iter\iter\obj\Debug\iter.exe
+C:\Users\305\Desktop\20200519\part4\iteration\iter\iter\obj\Debug\iter.pdb

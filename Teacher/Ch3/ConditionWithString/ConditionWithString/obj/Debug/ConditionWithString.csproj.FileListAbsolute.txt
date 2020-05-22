@@ -1,0 +1,1 @@
+C:\ITCookbook\ConditionWithString\ConditionWithString\bin\Debug\ConditionWithString.exe.config

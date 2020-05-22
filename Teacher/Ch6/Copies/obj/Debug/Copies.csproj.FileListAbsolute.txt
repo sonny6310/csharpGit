@@ -1,0 +1,6 @@
+C:\ITCookbook\코드\6장\Copies\bin\Debug\Copies.exe.config
+C:\ITCookbook\코드\6장\Copies\bin\Debug\Copies.exe
+C:\ITCookbook\코드\6장\Copies\bin\Debug\Copies.pdb
+C:\ITCookbook\코드\6장\Copies\obj\Debug\Copies.csprojResolveAssemblyReference.cache
+C:\ITCookbook\코드\6장\Copies\obj\Debug\Copies.exe
+C:\ITCookbook\코드\6장\Copies\obj\Debug\Copies.pdb

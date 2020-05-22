@@ -1,0 +1,6 @@
+C:\Users\305\Desktop\20200519\part3\exercise_vs\exercise_3\exercise_3\bin\Debug\exercise_3.exe.config
+C:\Users\305\Desktop\20200519\part3\exercise_vs\exercise_3\exercise_3\bin\Debug\exercise_3.exe
+C:\Users\305\Desktop\20200519\part3\exercise_vs\exercise_3\exercise_3\bin\Debug\exercise_3.pdb
+C:\Users\305\Desktop\20200519\part3\exercise_vs\exercise_3\exercise_3\obj\Debug\exercise_3.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200519\part3\exercise_vs\exercise_3\exercise_3\obj\Debug\exercise_3.exe
+C:\Users\305\Desktop\20200519\part3\exercise_vs\exercise_3\exercise_3\obj\Debug\exercise_3.pdb

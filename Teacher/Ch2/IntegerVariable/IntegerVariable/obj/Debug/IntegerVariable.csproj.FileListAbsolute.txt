@@ -1,0 +1,5 @@
+C:\ITCookbook\IntegerVariable\IntegerVariable\bin\Debug\IntegerVariable.exe.config
+C:\ITCookbook\IntegerVariable\IntegerVariable\bin\Debug\IntegerVariable.exe
+C:\ITCookbook\IntegerVariable\IntegerVariable\bin\Debug\IntegerVariable.pdb
+C:\ITCookbook\IntegerVariable\IntegerVariable\obj\Debug\IntegerVariable.exe
+C:\ITCookbook\IntegerVariable\IntegerVariable\obj\Debug\IntegerVariable.pdb

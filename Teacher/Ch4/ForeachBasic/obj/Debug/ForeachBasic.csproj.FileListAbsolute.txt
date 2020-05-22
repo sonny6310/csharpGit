@@ -1,0 +1,5 @@
+C:\ITCookbook\ForeachBasic\bin\Debug\ForeachBasic.exe.config
+C:\ITCookbook\ForeachBasic\bin\Debug\ForeachBasic.exe
+C:\ITCookbook\ForeachBasic\bin\Debug\ForeachBasic.pdb
+C:\ITCookbook\ForeachBasic\obj\Debug\ForeachBasic.exe
+C:\ITCookbook\ForeachBasic\obj\Debug\ForeachBasic.pdb

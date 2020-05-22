@@ -1,0 +1,5 @@
+C:\ITCookbook\IntegerBasic\IntegerBasic\bin\Debug\IntegerBasic.exe.config
+C:\ITCookbook\IntegerBasic\IntegerBasic\bin\Debug\IntegerBasic.exe
+C:\ITCookbook\IntegerBasic\IntegerBasic\bin\Debug\IntegerBasic.pdb
+C:\ITCookbook\IntegerBasic\IntegerBasic\obj\Debug\IntegerBasic.exe
+C:\ITCookbook\IntegerBasic\IntegerBasic\obj\Debug\IntegerBasic.pdb

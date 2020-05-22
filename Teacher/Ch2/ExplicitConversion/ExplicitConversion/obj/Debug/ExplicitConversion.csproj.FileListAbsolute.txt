@@ -1,0 +1,5 @@
+C:\ITCookbook\ExplicitConversion\ExplicitConversion\bin\Debug\ExplicitConversion.exe.config
+C:\ITCookbook\ExplicitConversion\ExplicitConversion\bin\Debug\ExplicitConversion.exe
+C:\ITCookbook\ExplicitConversion\ExplicitConversion\bin\Debug\ExplicitConversion.pdb
+C:\ITCookbook\ExplicitConversion\ExplicitConversion\obj\Debug\ExplicitConversion.exe
+C:\ITCookbook\ExplicitConversion\ExplicitConversion\obj\Debug\ExplicitConversion.pdb

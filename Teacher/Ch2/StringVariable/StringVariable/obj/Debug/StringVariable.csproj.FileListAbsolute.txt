@@ -1,0 +1,5 @@
+C:\ITCookbook\StringVariable\StringVariable\bin\Debug\StringVariable.exe.config
+C:\ITCookbook\StringVariable\StringVariable\bin\Debug\StringVariable.exe
+C:\ITCookbook\StringVariable\StringVariable\bin\Debug\StringVariable.pdb
+C:\ITCookbook\StringVariable\StringVariable\obj\Debug\StringVariable.exe
+C:\ITCookbook\StringVariable\StringVariable\obj\Debug\StringVariable.pdb

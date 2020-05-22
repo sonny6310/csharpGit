@@ -1,0 +1,11 @@
+C:\ITCookbook\BoolBasic\BoolBasic\bin\Debug\BoolBasic.exe.config
+C:\ITCookbook\BoolBasic\BoolBasic\bin\Debug\BoolBasic.exe
+C:\ITCookbook\BoolBasic\BoolBasic\bin\Debug\BoolBasic.pdb
+C:\ITCookbook\BoolBasic\BoolBasic\obj\Debug\BoolBasic.exe
+C:\ITCookbook\BoolBasic\BoolBasic\obj\Debug\BoolBasic.pdb
+\\192.168.0.198\share\c#\2장\BoolBasic\BoolBasic\bin\Debug\BoolBasic.exe.config
+\\192.168.0.198\share\c#\2장\BoolBasic\BoolBasic\obj\Debug\BoolBasic.exe
+\\192.168.0.198\share\c#\2장\BoolBasic\BoolBasic\obj\Debug\BoolBasic.pdb
+\\192.168.0.198\share\c#\2장\BoolBasic\BoolBasic\bin\Debug\BoolBasic.exe
+\\192.168.0.198\share\c#\2장\BoolBasic\BoolBasic\bin\Debug\BoolBasic.pdb
+\\192.168.0.198\share\c#\2장\BoolBasic\BoolBasic\obj\Debug\BoolBasic.csprojResolveAssemblyReference.cache

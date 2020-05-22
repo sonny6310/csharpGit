@@ -1,0 +1,9 @@
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\bin\Debug\que4.exe.config
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\bin\Debug\que4.exe
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\bin\Debug\que4.pdb
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\obj\Debug\que4.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\obj\Debug\que4.Form1.resources
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\obj\Debug\que4.Properties.Resources.resources
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\obj\Debug\que4.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\obj\Debug\que4.exe
+C:\Users\305\Desktop\20200521\exercise\Q4\que4\que4\obj\Debug\que4.pdb

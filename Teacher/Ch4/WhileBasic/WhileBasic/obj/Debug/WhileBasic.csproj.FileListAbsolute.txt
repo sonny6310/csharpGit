@@ -1,0 +1,5 @@
+C:\ITCookbook\WhileBasic\WhileBasic\bin\Debug\WhileBasic.exe.config
+C:\ITCookbook\WhileBasic\WhileBasic\bin\Debug\WhileBasic.exe
+C:\ITCookbook\WhileBasic\WhileBasic\bin\Debug\WhileBasic.pdb
+C:\ITCookbook\WhileBasic\WhileBasic\obj\Debug\WhileBasic.exe
+C:\ITCookbook\WhileBasic\WhileBasic\obj\Debug\WhileBasic.pdb

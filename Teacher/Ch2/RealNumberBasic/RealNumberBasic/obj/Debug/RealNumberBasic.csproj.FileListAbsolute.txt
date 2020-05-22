@@ -1,0 +1,5 @@
+C:\ITCookbook\RealNumberBasic\RealNumberBasic\bin\Debug\RealNumberBasic.exe.config
+C:\ITCookbook\RealNumberBasic\RealNumberBasic\bin\Debug\RealNumberBasic.exe
+C:\ITCookbook\RealNumberBasic\RealNumberBasic\bin\Debug\RealNumberBasic.pdb
+C:\ITCookbook\RealNumberBasic\RealNumberBasic\obj\Debug\RealNumberBasic.exe
+C:\ITCookbook\RealNumberBasic\RealNumberBasic\obj\Debug\RealNumberBasic.pdb

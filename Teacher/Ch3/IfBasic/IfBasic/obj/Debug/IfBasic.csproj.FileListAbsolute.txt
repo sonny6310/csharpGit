@@ -1,0 +1,6 @@
+C:\ITCookbook\IfBasic\IfBasic\bin\Debug\IfBasic.exe.config
+C:\ITCookbook\IfBasic\IfBasic\bin\Debug\IfBasic.exe
+C:\ITCookbook\IfBasic\IfBasic\bin\Debug\IfBasic.pdb
+C:\ITCookbook\IfBasic\IfBasic\obj\Debug\IfBasic.csprojResolveAssemblyReference.cache
+C:\ITCookbook\IfBasic\IfBasic\obj\Debug\IfBasic.exe
+C:\ITCookbook\IfBasic\IfBasic\obj\Debug\IfBasic.pdb

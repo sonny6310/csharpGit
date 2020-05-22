@@ -1,0 +1,5 @@
+C:\ITCookbook\StringTo\StringTo\bin\Debug\StringTo.exe.config
+C:\ITCookbook\StringTo\StringTo\bin\Debug\StringTo.exe
+C:\ITCookbook\StringTo\StringTo\bin\Debug\StringTo.pdb
+C:\ITCookbook\StringTo\StringTo\obj\Debug\StringTo.exe
+C:\ITCookbook\StringTo\StringTo\obj\Debug\StringTo.pdb

@@ -1,0 +1,2 @@
+C:\ITCookbook\코드\4장\Arrays\bin\Debug\Arrays.exe.config
+C:\ITCookbook\코드\4장\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache

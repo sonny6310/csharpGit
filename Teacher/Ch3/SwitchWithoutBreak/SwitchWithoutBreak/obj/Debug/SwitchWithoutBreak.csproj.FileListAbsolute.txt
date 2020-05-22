@@ -1,0 +1,8 @@
+C:\ITCookbook\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.exe.config
+C:\ITCookbook\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.exe
+C:\ITCookbook\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.pdb
+C:\ITCookbook\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.exe
+C:\ITCookbook\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.pdb
+\\192.168.0.198\share\c#\3장\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.exe.config
+\\192.168.0.198\share\c#\3장\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.exe
+\\192.168.0.198\share\c#\3장\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.pdb

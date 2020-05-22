@@ -1,0 +1,5 @@
+C:\ITCookbook\RealNumberVariable\RealNumberVariable\bin\Debug\RealNumberVariable.exe.config
+C:\ITCookbook\RealNumberVariable\RealNumberVariable\bin\Debug\RealNumberVariable.exe
+C:\ITCookbook\RealNumberVariable\RealNumberVariable\bin\Debug\RealNumberVariable.pdb
+C:\ITCookbook\RealNumberVariable\RealNumberVariable\obj\Debug\RealNumberVariable.exe
+C:\ITCookbook\RealNumberVariable\RealNumberVariable\obj\Debug\RealNumberVariable.pdb

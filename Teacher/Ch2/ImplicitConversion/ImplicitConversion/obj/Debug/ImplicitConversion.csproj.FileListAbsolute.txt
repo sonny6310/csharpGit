@@ -1,0 +1,5 @@
+C:\ITCookbook\ImplicitConversion\ImplicitConversion\bin\Debug\ImplicitConversion.exe.config
+C:\ITCookbook\ImplicitConversion\ImplicitConversion\bin\Debug\ImplicitConversion.exe
+C:\ITCookbook\ImplicitConversion\ImplicitConversion\bin\Debug\ImplicitConversion.pdb
+C:\ITCookbook\ImplicitConversion\ImplicitConversion\obj\Debug\ImplicitConversion.exe
+C:\ITCookbook\ImplicitConversion\ImplicitConversion\obj\Debug\ImplicitConversion.pdb

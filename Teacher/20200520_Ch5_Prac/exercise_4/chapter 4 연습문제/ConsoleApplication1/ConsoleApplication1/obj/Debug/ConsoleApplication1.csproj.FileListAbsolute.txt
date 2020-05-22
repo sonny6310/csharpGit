@@ -1,0 +1,11 @@
+C:\Users\305\Desktop\20200520\exercise_4\새 폴더\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\305\Desktop\20200520\exercise_4\새 폴더\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\305\Desktop\20200520\exercise_4\새 폴더\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\305\Desktop\20200520\exercise_4\새 폴더\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\305\Desktop\20200520\exercise_4\새 폴더\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\305\Desktop\20200520\exercise_4\chapter 4 연습문제\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\305\Desktop\20200520\exercise_4\chapter 4 연습문제\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\305\Desktop\20200520\exercise_4\chapter 4 연습문제\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\305\Desktop\20200520\exercise_4\chapter 4 연습문제\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200520\exercise_4\chapter 4 연습문제\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\305\Desktop\20200520\exercise_4\chapter 4 연습문제\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

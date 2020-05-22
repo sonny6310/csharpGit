@@ -1,0 +1,6 @@
+C:\Users\305\Desktop\20200519\output\output\bin\Debug\output.exe.config
+C:\Users\305\Desktop\20200519\output\output\bin\Debug\output.exe
+C:\Users\305\Desktop\20200519\output\output\bin\Debug\output.pdb
+C:\Users\305\Desktop\20200519\output\output\obj\Debug\output.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200519\output\output\obj\Debug\output.exe
+C:\Users\305\Desktop\20200519\output\output\obj\Debug\output.pdb

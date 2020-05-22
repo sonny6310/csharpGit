@@ -1,0 +1,9 @@
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\경북산업직업전문학교\강의자료\source\이동준Ver\6장\Simhwa\1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

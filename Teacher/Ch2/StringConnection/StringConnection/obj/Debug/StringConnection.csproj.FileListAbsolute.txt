@@ -1,0 +1,2 @@
+C:\ITCookbook\StringConnection\StringConnection\bin\Debug\StringConnection.exe.config
+E:\경북산업직업전문학교\빅데이터 UI반 대비 c# 강의 자료\c# 강의안(이동준ver)\예제소스\source\2장\StringConnection\StringConnection\bin\Debug\StringConnection.exe.config

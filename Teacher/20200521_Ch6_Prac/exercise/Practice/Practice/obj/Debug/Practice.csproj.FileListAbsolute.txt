@@ -1,0 +1,8 @@
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\bin\Debug\Practice.exe
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\bin\Debug\Practice.pdb
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\obj\Debug\Practice.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\obj\Debug\Practice.exe
+C:\Users\305\Desktop\20200521\exercise\Practice\Practice\obj\Debug\Practice.pdb

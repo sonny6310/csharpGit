@@ -1,0 +1,5 @@
+C:\ITCookbook\LogicalOperator\LogicalOperator\bin\Debug\LogicalOperator.exe.config
+C:\ITCookbook\LogicalOperator\LogicalOperator\bin\Debug\LogicalOperator.exe
+C:\ITCookbook\LogicalOperator\LogicalOperator\bin\Debug\LogicalOperator.pdb
+C:\ITCookbook\LogicalOperator\LogicalOperator\obj\Debug\LogicalOperator.exe
+C:\ITCookbook\LogicalOperator\LogicalOperator\obj\Debug\LogicalOperator.pdb

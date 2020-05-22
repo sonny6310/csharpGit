@@ -1,0 +1,9 @@
+C:\ITCookbook\윈폼\FirstFormApplication\bin\Debug\FirstFormApplication.exe.config
+C:\ITCookbook\윈폼\FirstFormApplication\bin\Debug\FirstFormApplication.exe
+C:\ITCookbook\윈폼\FirstFormApplication\bin\Debug\FirstFormApplication.pdb
+C:\ITCookbook\윈폼\FirstFormApplication\obj\Debug\FirstFormApplication.csprojResolveAssemblyReference.cache
+C:\ITCookbook\윈폼\FirstFormApplication\obj\Debug\FirstFormApplication.Form1.resources
+C:\ITCookbook\윈폼\FirstFormApplication\obj\Debug\FirstFormApplication.Properties.Resources.resources
+C:\ITCookbook\윈폼\FirstFormApplication\obj\Debug\FirstFormApplication.csproj.GenerateResource.Cache
+C:\ITCookbook\윈폼\FirstFormApplication\obj\Debug\FirstFormApplication.exe
+C:\ITCookbook\윈폼\FirstFormApplication\obj\Debug\FirstFormApplication.pdb

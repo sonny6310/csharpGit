@@ -1,0 +1,5 @@
+C:\ITCookbook\DoubleToString\DoubleToString\bin\Debug\DoubleToString.exe.config
+C:\ITCookbook\DoubleToString\DoubleToString\bin\Debug\DoubleToString.exe
+C:\ITCookbook\DoubleToString\DoubleToString\bin\Debug\DoubleToString.pdb
+C:\ITCookbook\DoubleToString\DoubleToString\obj\Debug\DoubleToString.exe
+C:\ITCookbook\DoubleToString\DoubleToString\obj\Debug\DoubleToString.pdb

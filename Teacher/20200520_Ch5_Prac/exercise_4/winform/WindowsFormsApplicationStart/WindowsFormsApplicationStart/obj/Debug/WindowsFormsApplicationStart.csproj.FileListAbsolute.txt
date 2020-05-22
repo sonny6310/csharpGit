@@ -1,0 +1,9 @@
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\bin\Debug\WindowsFormsApplicationStart.exe.config
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\bin\Debug\WindowsFormsApplicationStart.exe
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\bin\Debug\WindowsFormsApplicationStart.pdb
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\obj\Debug\WindowsFormsApplicationStart.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\obj\Debug\WindowsFormsApplicationStart.Form1.resources
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\obj\Debug\WindowsFormsApplicationStart.Properties.Resources.resources
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\obj\Debug\WindowsFormsApplicationStart.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\obj\Debug\WindowsFormsApplicationStart.exe
+C:\Users\305\Desktop\20200520\exercise_4\winform\WindowsFormsApplicationStart\WindowsFormsApplicationStart\obj\Debug\WindowsFormsApplicationStart.pdb

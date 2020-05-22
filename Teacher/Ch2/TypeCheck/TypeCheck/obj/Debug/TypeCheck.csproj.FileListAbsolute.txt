@@ -1,0 +1,5 @@
+C:\ITCookbook\TypeCheck\TypeCheck\bin\Debug\TypeCheck.exe.config
+C:\ITCookbook\TypeCheck\TypeCheck\bin\Debug\TypeCheck.exe
+C:\ITCookbook\TypeCheck\TypeCheck\bin\Debug\TypeCheck.pdb
+C:\ITCookbook\TypeCheck\TypeCheck\obj\Debug\TypeCheck.exe
+C:\ITCookbook\TypeCheck\TypeCheck\obj\Debug\TypeCheck.pdb

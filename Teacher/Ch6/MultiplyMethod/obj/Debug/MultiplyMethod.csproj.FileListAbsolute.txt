@@ -1,0 +1,1 @@
+C:\ITCookbook\MultiplyMethod\bin\Debug\MultiplyMethod.exe.config

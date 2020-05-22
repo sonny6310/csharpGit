@@ -1,0 +1,5 @@
+C:\ITCookbook\IncrementOperatorPosition\IncrementOperatorPosition\bin\Debug\IncrementOperatorPosition.exe.config
+C:\ITCookbook\IncrementOperatorPosition\IncrementOperatorPosition\bin\Debug\IncrementOperatorPosition.exe
+C:\ITCookbook\IncrementOperatorPosition\IncrementOperatorPosition\bin\Debug\IncrementOperatorPosition.pdb
+C:\ITCookbook\IncrementOperatorPosition\IncrementOperatorPosition\obj\Debug\IncrementOperatorPosition.exe
+C:\ITCookbook\IncrementOperatorPosition\IncrementOperatorPosition\obj\Debug\IncrementOperatorPosition.pdb

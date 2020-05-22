@@ -1,0 +1,1 @@
+C:\ITCookbook\BoolVariable\BoolVariable\bin\Debug\BoolVariable.exe.config

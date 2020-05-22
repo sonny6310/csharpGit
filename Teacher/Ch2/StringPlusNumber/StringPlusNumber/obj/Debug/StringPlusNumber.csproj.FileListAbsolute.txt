@@ -1,0 +1,1 @@
+C:\ITCookbook\StringPlusNumber\StringPlusNumber\bin\Debug\StringPlusNumber.exe.config

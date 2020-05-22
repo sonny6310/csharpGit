@@ -1,0 +1,5 @@
+C:\ITCookbook\BreakBasic\bin\Debug\BreakBasic.exe.config
+C:\ITCookbook\BreakBasic\bin\Debug\BreakBasic.exe
+C:\ITCookbook\BreakBasic\bin\Debug\BreakBasic.pdb
+C:\ITCookbook\BreakBasic\obj\Debug\BreakBasic.exe
+C:\ITCookbook\BreakBasic\obj\Debug\BreakBasic.pdb

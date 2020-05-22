@@ -1,0 +1,1 @@
+C:\ITCookbook\Destructor\bin\Debug\Destructor.exe.config

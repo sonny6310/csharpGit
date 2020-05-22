@@ -1,0 +1,12 @@
+C:\ITCookbook\MovingAt\bin\Debug\MovingAt.exe.config
+C:\ITCookbook\MovingAt\bin\Debug\MovingAt.exe
+C:\ITCookbook\MovingAt\bin\Debug\MovingAt.pdb
+C:\ITCookbook\MovingAt\obj\Debug\MovingAt.exe
+C:\ITCookbook\MovingAt\obj\Debug\MovingAt.pdb
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\bin\Debug\MovingAt.exe.config
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\bin\Debug\MovingAt.exe
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\bin\Debug\MovingAt.pdb
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\obj\Debug\MovingAt.csprojAssemblyReference.cache
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\obj\Debug\MovingAt.csproj.CoreCompileInputs.cache
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\obj\Debug\MovingAt.exe
+E:\KB\c# 강의안(이동준ver)\예제소스\source\4장\MovingAt\obj\Debug\MovingAt.pdb

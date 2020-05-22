@@ -1,0 +1,8 @@
+C:\ITCookbook\Input\Input\bin\Debug\Input.exe.config
+C:\ITCookbook\Input\Input\bin\Debug\Input.exe
+C:\ITCookbook\Input\Input\bin\Debug\Input.pdb
+C:\ITCookbook\Input\Input\obj\Debug\Input.exe
+C:\ITCookbook\Input\Input\obj\Debug\Input.pdb
+\\192.168.0.198\share\c#\2장\Input\Input\bin\Debug\Input.exe.config
+\\192.168.0.198\share\c#\2장\Input\Input\obj\Debug\Input.exe
+\\192.168.0.198\share\c#\2장\Input\Input\obj\Debug\Input.pdb

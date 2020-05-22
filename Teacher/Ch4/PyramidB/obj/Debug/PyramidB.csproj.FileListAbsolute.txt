@@ -1,0 +1,5 @@
+C:\ITCookbook\PyramidB\bin\Debug\PyramidB.exe.config
+C:\ITCookbook\PyramidB\bin\Debug\PyramidB.exe
+C:\ITCookbook\PyramidB\bin\Debug\PyramidB.pdb
+C:\ITCookbook\PyramidB\obj\Debug\PyramidB.exe
+C:\ITCookbook\PyramidB\obj\Debug\PyramidB.pdb

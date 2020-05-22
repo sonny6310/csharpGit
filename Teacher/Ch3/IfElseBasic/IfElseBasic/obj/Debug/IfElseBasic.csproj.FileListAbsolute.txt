@@ -1,0 +1,8 @@
+C:\ITCookbook\IfElseBasic\IfElseBasic\bin\Debug\IfElseBasic.exe.config
+C:\ITCookbook\IfElseBasic\IfElseBasic\bin\Debug\IfElseBasic.exe
+C:\ITCookbook\IfElseBasic\IfElseBasic\bin\Debug\IfElseBasic.pdb
+C:\ITCookbook\IfElseBasic\IfElseBasic\obj\Debug\IfElseBasic.exe
+C:\ITCookbook\IfElseBasic\IfElseBasic\obj\Debug\IfElseBasic.pdb
+\\192.168.0.198\share\c#\3장\IfElseBasic\IfElseBasic\bin\Debug\IfElseBasic.exe.config
+\\192.168.0.198\share\c#\3장\IfElseBasic\IfElseBasic\obj\Debug\IfElseBasic.exe
+\\192.168.0.198\share\c#\3장\IfElseBasic\IfElseBasic\obj\Debug\IfElseBasic.pdb

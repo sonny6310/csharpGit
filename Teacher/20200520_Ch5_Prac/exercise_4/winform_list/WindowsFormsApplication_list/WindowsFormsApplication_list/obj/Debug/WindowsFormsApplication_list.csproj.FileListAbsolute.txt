@@ -1,0 +1,9 @@
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\bin\Debug\WindowsFormsApplication_list.exe.config
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\bin\Debug\WindowsFormsApplication_list.exe
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\bin\Debug\WindowsFormsApplication_list.pdb
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\obj\Debug\WindowsFormsApplication_list.Properties.Resources.resources
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\obj\Debug\WindowsFormsApplication_list.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\obj\Debug\WindowsFormsApplication_list.exe
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\obj\Debug\WindowsFormsApplication_list.pdb
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\obj\Debug\WindowsFormsApplication_list.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200520\exercise_4\winform_list\WindowsFormsApplication_list\WindowsFormsApplication_list\obj\Debug\WindowsFormsApplication_list.Form1.resources

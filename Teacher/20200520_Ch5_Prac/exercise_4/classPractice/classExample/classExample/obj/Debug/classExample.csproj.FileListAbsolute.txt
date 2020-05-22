@@ -1,0 +1,11 @@
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\bin\Debug\classExample.exe.config
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\bin\Debug\classExample.exe
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\bin\Debug\classExample.pdb
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.Properties.Resources.resources
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.exe
+C:\Users\305\Desktop\20200520\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.pdb
+\\192.168.0.198\share\c#\20200520_5단원 실습\exercise_4\classPractice\classExample\classExample\bin\Debug\classExample.exe.config
+\\192.168.0.198\share\c#\20200520_5단원 실습\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.exe
+\\192.168.0.198\share\c#\20200520_5단원 실습\exercise_4\classPractice\classExample\classExample\obj\Debug\classExample.pdb

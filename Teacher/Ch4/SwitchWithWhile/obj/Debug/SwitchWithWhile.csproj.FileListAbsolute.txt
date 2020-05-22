@@ -1,0 +1,5 @@
+C:\ITCookbook\SwitchWithWhile\bin\Debug\SwitchWithWhile.exe.config
+C:\ITCookbook\SwitchWithWhile\bin\Debug\SwitchWithWhile.exe
+C:\ITCookbook\SwitchWithWhile\bin\Debug\SwitchWithWhile.pdb
+C:\ITCookbook\SwitchWithWhile\obj\Debug\SwitchWithWhile.exe
+C:\ITCookbook\SwitchWithWhile\obj\Debug\SwitchWithWhile.pdb

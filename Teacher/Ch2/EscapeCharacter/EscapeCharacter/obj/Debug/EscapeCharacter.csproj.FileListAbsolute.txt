@@ -1,0 +1,5 @@
+C:\ITCookbook\EscapeCharacter\EscapeCharacter\bin\Debug\EscapeCharacter.exe.config
+C:\ITCookbook\EscapeCharacter\EscapeCharacter\bin\Debug\EscapeCharacter.exe
+C:\ITCookbook\EscapeCharacter\EscapeCharacter\bin\Debug\EscapeCharacter.pdb
+C:\ITCookbook\EscapeCharacter\EscapeCharacter\obj\Debug\EscapeCharacter.exe
+C:\ITCookbook\EscapeCharacter\EscapeCharacter\obj\Debug\EscapeCharacter.pdb

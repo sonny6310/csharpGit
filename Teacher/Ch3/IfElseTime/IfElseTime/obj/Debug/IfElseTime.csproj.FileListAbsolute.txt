@@ -1,0 +1,8 @@
+C:\ITCookbook\IfElseTime\IfElseTime\bin\Debug\IfElseTime.exe.config
+C:\ITCookbook\IfElseTime\IfElseTime\bin\Debug\IfElseTime.exe
+C:\ITCookbook\IfElseTime\IfElseTime\bin\Debug\IfElseTime.pdb
+C:\ITCookbook\IfElseTime\IfElseTime\obj\Debug\IfElseTime.exe
+C:\ITCookbook\IfElseTime\IfElseTime\obj\Debug\IfElseTime.pdb
+\\192.168.0.198\share\c#\3장\IfElseTime\IfElseTime\bin\Debug\IfElseTime.exe.config
+\\192.168.0.198\share\c#\3장\IfElseTime\IfElseTime\obj\Debug\IfElseTime.exe
+\\192.168.0.198\share\c#\3장\IfElseTime\IfElseTime\obj\Debug\IfElseTime.pdb

@@ -1,0 +1,1 @@
+C:\ITCookbook\StringAssignmentOperator\StringAssignmentOperator\bin\Debug\StringAssignmentOperator.exe.config

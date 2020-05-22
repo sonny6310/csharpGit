@@ -1,0 +1,1 @@
+C:\ITCookbook\ClassMethod\bin\Debug\ClassMethod.exe.config

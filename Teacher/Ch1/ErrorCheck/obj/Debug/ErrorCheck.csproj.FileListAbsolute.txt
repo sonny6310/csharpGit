@@ -1,0 +1,1 @@
+C:\ITCookbook\코드\1장\ErrorCheck\bin\Debug\ErrorCheck.exe.config

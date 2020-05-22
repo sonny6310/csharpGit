@@ -1,0 +1,8 @@
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\bin\Debug\que2.exe.config
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\bin\Debug\que2.exe
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\bin\Debug\que2.pdb
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.Form1.resources
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.Properties.Resources.resources
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.exe
+C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.pdb

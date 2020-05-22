@@ -1,0 +1,6 @@
+C:\ITCookbook\IfTime\IfTime\bin\Debug\IfTime.exe.config
+C:\ITCookbook\IfTime\IfTime\bin\Debug\IfTime.exe
+C:\ITCookbook\IfTime\IfTime\bin\Debug\IfTime.pdb
+C:\ITCookbook\IfTime\IfTime\obj\Debug\IfTime.csprojResolveAssemblyReference.cache
+C:\ITCookbook\IfTime\IfTime\obj\Debug\IfTime.exe
+C:\ITCookbook\IfTime\IfTime\obj\Debug\IfTime.pdb

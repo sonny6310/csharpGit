@@ -1,0 +1,5 @@
+C:\ITCookbook\DirectTypeCheck\DirectTypeCheck\bin\Debug\DirectTypeCheck.exe.config
+C:\ITCookbook\DirectTypeCheck\DirectTypeCheck\bin\Debug\DirectTypeCheck.exe
+C:\ITCookbook\DirectTypeCheck\DirectTypeCheck\bin\Debug\DirectTypeCheck.pdb
+C:\ITCookbook\DirectTypeCheck\DirectTypeCheck\obj\Debug\DirectTypeCheck.exe
+C:\ITCookbook\DirectTypeCheck\DirectTypeCheck\obj\Debug\DirectTypeCheck.pdb

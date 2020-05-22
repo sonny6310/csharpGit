@@ -1,0 +1,1 @@
+C:\ITCookbook\StringSelector\StringSelector\bin\Debug\StringSelector.exe.config

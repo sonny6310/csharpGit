@@ -1,0 +1,5 @@
+C:\ITCookbook\ForReverse\bin\Debug\ForReverse.exe.config
+C:\ITCookbook\ForReverse\bin\Debug\ForReverse.exe
+C:\ITCookbook\ForReverse\bin\Debug\ForReverse.pdb
+C:\ITCookbook\ForReverse\obj\Debug\ForReverse.exe
+C:\ITCookbook\ForReverse\obj\Debug\ForReverse.pdb
