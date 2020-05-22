@@ -1,0 +1,7 @@
+D:\2020csharp\20200521\Winform\ex02\bin\Debug\ex02.exe.config
+D:\2020csharp\20200521\Winform\ex02\bin\Debug\ex02.exe
+D:\2020csharp\20200521\Winform\ex02\bin\Debug\ex02.pdb
+D:\2020csharp\20200521\Winform\ex02\obj\Debug\ex02.Properties.Resources.resources
+D:\2020csharp\20200521\Winform\ex02\obj\Debug\ex02.csproj.GenerateResource.Cache
+D:\2020csharp\20200521\Winform\ex02\obj\Debug\ex02.exe
+D:\2020csharp\20200521\Winform\ex02\obj\Debug\ex02.pdb
