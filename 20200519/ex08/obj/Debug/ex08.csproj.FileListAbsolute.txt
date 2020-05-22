@@ -1,0 +1,5 @@
+D:\2020csharp\20200519\ex08\bin\Debug\ex08.exe.config
+D:\2020csharp\20200519\ex08\bin\Debug\ex08.exe
+D:\2020csharp\20200519\ex08\bin\Debug\ex08.pdb
+D:\2020csharp\20200519\ex08\obj\Debug\ex08.exe
+D:\2020csharp\20200519\ex08\obj\Debug\ex08.pdb

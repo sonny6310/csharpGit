@@ -1,0 +1,6 @@
+D:\2020csharp\20200519\Qz2\bin\Debug\Qz2.exe.config
+D:\2020csharp\20200519\Qz2\bin\Debug\Qz2.exe
+D:\2020csharp\20200519\Qz2\bin\Debug\Qz2.pdb
+D:\2020csharp\20200519\Qz2\obj\Debug\Qz2.exe
+D:\2020csharp\20200519\Qz2\obj\Debug\Qz2.pdb
+D:\2020csharp\20200519\Qz2\obj\Debug\Qz2.csprojResolveAssemblyReference.cache
