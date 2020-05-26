@@ -7,6 +7,7 @@ using System.Windows.Forms;
 
 namespace ex04
 {
+    //인스턴스변수
     class TestClass
     {
         public int Power(int x)
@@ -17,9 +18,18 @@ namespace ex04
         {
             return x * y;
         }
-        //public void Print()
-        //{
-        //    MessageBox.Show("메세지 출력");
-        //}
     }
+
+    //클래스변수
+    //class TestClass
+    //{
+    //    public static int Power(int x)
+    //    {
+    //        return x * x;
+    //    }
+    //    public static int Multi(int x, int y)
+    //    {
+    //        return x * y;
+    //    }
+    //}
 }

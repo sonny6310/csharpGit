@@ -55,15 +55,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(232, 220);
+            this.label1.Location = new System.Drawing.Point(209, 220);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 12);
+            this.label1.Size = new System.Drawing.Size(89, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "제한시간:";
+            this.label1.Text = "제한시간 입력 :";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(295, 217);
+            this.textBox1.Location = new System.Drawing.Point(304, 217);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 2;
