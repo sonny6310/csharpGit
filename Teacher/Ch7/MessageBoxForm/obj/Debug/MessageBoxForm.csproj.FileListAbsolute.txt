@@ -1,0 +1,8 @@
+C:\ITCookbook\윈폼\MessageBoxForm\bin\Debug\MessageBoxForm.exe.config
+C:\ITCookbook\윈폼\MessageBoxForm\bin\Debug\MessageBoxForm.exe
+C:\ITCookbook\윈폼\MessageBoxForm\bin\Debug\MessageBoxForm.pdb
+C:\ITCookbook\윈폼\MessageBoxForm\obj\Debug\MessageBoxForm.Form1.resources
+C:\ITCookbook\윈폼\MessageBoxForm\obj\Debug\MessageBoxForm.Properties.Resources.resources
+C:\ITCookbook\윈폼\MessageBoxForm\obj\Debug\MessageBoxForm.csproj.GenerateResource.Cache
+C:\ITCookbook\윈폼\MessageBoxForm\obj\Debug\MessageBoxForm.exe
+C:\ITCookbook\윈폼\MessageBoxForm\obj\Debug\MessageBoxForm.pdb

@@ -1,0 +1,1 @@
+C:\ITCookbook\코드\7장\CInheritance\bin\Debug\CInheritance.exe.config

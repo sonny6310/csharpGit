@@ -1,0 +1,6 @@
+C:\ITCookbook\코드\7장\ShadowAndHide\bin\Debug\ShadowAndHide.exe.config
+C:\ITCookbook\코드\7장\ShadowAndHide\bin\Debug\ShadowAndHide.exe
+C:\ITCookbook\코드\7장\ShadowAndHide\bin\Debug\ShadowAndHide.pdb
+C:\ITCookbook\코드\7장\ShadowAndHide\obj\Debug\ShadowAndHide.csprojResolveAssemblyReference.cache
+C:\ITCookbook\코드\7장\ShadowAndHide\obj\Debug\ShadowAndHide.exe
+C:\ITCookbook\코드\7장\ShadowAndHide\obj\Debug\ShadowAndHide.pdb
