@@ -61,13 +61,13 @@ namespace Qz2
         private int timer = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            timer++;
-            label_time.Text = timer.ToString() + "초";
-
             int limitTime;
             // textBox1.Text를 int형으로 변환을 시도하여 가능하면 그 값을 limitTime에 반환
             // 불가능하면 0을 limitTime에 반환
             int.TryParse(textBox1.Text, out limitTime);
+
+            timer++;
+            label_time.Text = (limitTime-timer).ToString() + "초";
 
             if (timer == limitTime || limitTime == 0)
             {
