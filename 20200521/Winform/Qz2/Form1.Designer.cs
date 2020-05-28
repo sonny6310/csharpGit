@@ -81,7 +81,7 @@
             // 
             this.label_result.AutoSize = true;
             this.label_result.Font = new System.Drawing.Font("돋움", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_result.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label_result.ForeColor = System.Drawing.Color.Tomato;
             this.label_result.Location = new System.Drawing.Point(273, 182);
             this.label_result.Name = "label_result";
             this.label_result.Size = new System.Drawing.Size(16, 16);

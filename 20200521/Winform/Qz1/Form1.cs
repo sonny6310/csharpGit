@@ -38,20 +38,20 @@ namespace Qz1
             else
             {
                 label_result.Text = "맞추셨습니다!";
-                elapsdTime = 0;
+                elapsdTime = 20;
                 timer1.Enabled = false;
                 r = new Random().Next(1, 101);
                 label_reset.Text = "숫자가 바꼈습니다.";
             }
         }
-        private int elapsdTime = 0;
+        private int elapsdTime = 20;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            elapsdTime++;
+            elapsdTime--;
             label_time.Text = elapsdTime + "초";
-            if (elapsdTime == 20)
+            if (elapsdTime == 0)
             {
-                elapsdTime = 0;
+                elapsdTime = 20;
                 timer1.Enabled = false;
                 MessageBox.Show("Game Over!!");
                 label_result.Text = "시간 초과!!";

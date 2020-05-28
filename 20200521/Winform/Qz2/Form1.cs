@@ -49,11 +49,13 @@ namespace Qz2
             {
                 timer = 0;
                 timer1.Enabled = false;
+                label_result.ForeColor = Color.DodgerBlue;
                 label_result.Text = "보물발견!";
                 MessageBox.Show("You Win!!!");
             }else
             {
-                label_result.Text = "꽝이지롱~";
+                label_result.ForeColor = Color.Tomato;
+                label_result.Text = "   꽝!   ";
             }
         }
         private int timer = 0;
@@ -67,7 +69,7 @@ namespace Qz2
             // 불가능하면 0을 limitTime에 반환
             int.TryParse(textBox1.Text, out limitTime);
 
-            if (limitTime == timer || limitTime == 0)
+            if (timer == limitTime || limitTime == 0)
             {
                 timer = 0;
                 timer1.Enabled = false;
