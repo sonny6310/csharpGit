@@ -1,0 +1,10 @@
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\bin\Debug\Practice1.exe.config
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\bin\Debug\Practice1.exe
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\bin\Debug\Practice1.pdb
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.csprojAssemblyReference.cache
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.Properties.Resources.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.csproj.GenerateResource.cache
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.exe
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.pdb
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.MacForm.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice1\obj\Debug\Practice1.WindowsForm.resources

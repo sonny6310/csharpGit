@@ -1,0 +1,8 @@
+C:\Users\305\Desktop\20200528\part7\asis\asis\bin\Debug\asis.exe.config
+C:\Users\305\Desktop\20200528\part7\asis\asis\bin\Debug\asis.exe
+C:\Users\305\Desktop\20200528\part7\asis\asis\bin\Debug\asis.pdb
+C:\Users\305\Desktop\20200528\part7\asis\asis\obj\Debug\asis.Properties.Resources.resources
+C:\Users\305\Desktop\20200528\part7\asis\asis\obj\Debug\asis.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200528\part7\asis\asis\obj\Debug\asis.exe
+C:\Users\305\Desktop\20200528\part7\asis\asis\obj\Debug\asis.pdb
+C:\Users\305\Desktop\20200528\part7\asis\asis\obj\Debug\asis.MyClass.resources

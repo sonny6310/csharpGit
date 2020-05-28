@@ -1,0 +1,9 @@
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\bin\Debug\randomWithTimer.exe.config
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\bin\Debug\randomWithTimer.exe
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\bin\Debug\randomWithTimer.pdb
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\obj\Debug\randomWithTimer.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\obj\Debug\randomWithTimer.Form1.resources
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\obj\Debug\randomWithTimer.Properties.Resources.resources
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\obj\Debug\randomWithTimer.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\obj\Debug\randomWithTimer.exe
+C:\Users\305\Desktop\20200528\part6\q1\randomWithTimer\randomWithTimer\obj\Debug\randomWithTimer.pdb

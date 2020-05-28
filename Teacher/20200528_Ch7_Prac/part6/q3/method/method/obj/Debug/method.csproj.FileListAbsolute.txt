@@ -1,0 +1,7 @@
+C:\Users\305\Desktop\20200528\part6\q3\method\method\bin\Debug\method.exe.config
+C:\Users\305\Desktop\20200528\part6\q3\method\method\bin\Debug\method.exe
+C:\Users\305\Desktop\20200528\part6\q3\method\method\bin\Debug\method.pdb
+C:\Users\305\Desktop\20200528\part6\q3\method\method\obj\Debug\method.Properties.Resources.resources
+C:\Users\305\Desktop\20200528\part6\q3\method\method\obj\Debug\method.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200528\part6\q3\method\method\obj\Debug\method.exe
+C:\Users\305\Desktop\20200528\part6\q3\method\method\obj\Debug\method.pdb

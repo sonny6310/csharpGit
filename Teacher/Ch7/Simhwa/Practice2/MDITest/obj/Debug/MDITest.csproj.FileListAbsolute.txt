@@ -1,0 +1,15 @@
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\bin\Debug\MDITest.exe.config
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\bin\Debug\MDITest.exe
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\bin\Debug\MDITest.pdb
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.csprojAssemblyReference.cache
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.Properties.Resources.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.csproj.GenerateResource.cache
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.exe
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.pdb
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.MainForm.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.Form_Window.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.WindowForm1.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.WindowForm2.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.WindowForm3.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.MacForm1.resources
+D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.MacForm2.resources

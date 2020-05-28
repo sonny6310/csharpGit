@@ -1,0 +1,9 @@
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\bin\Debug\lastwinform.exe.config
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\bin\Debug\lastwinform.exe
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\bin\Debug\lastwinform.pdb
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\obj\Debug\lastwinform.csprojResolveAssemblyReference.cache
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\obj\Debug\lastwinform.Form1.resources
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\obj\Debug\lastwinform.Properties.Resources.resources
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\obj\Debug\lastwinform.csproj.GenerateResource.Cache
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\obj\Debug\lastwinform.exe
+C:\Users\305\Desktop\20200528\part7\winform\lastwinform\lastwinform\obj\Debug\lastwinform.pdb
