@@ -1,0 +1,9 @@
+D:\2020csharp\20200528\Winform\ex04\bin\Debug\ex04.exe.config
+D:\2020csharp\20200528\Winform\ex04\bin\Debug\ex04.exe
+D:\2020csharp\20200528\Winform\ex04\bin\Debug\ex04.pdb
+D:\2020csharp\20200528\Winform\ex04\obj\Debug\ex04.csprojResolveAssemblyReference.cache
+D:\2020csharp\20200528\Winform\ex04\obj\Debug\ex04.Form1.resources
+D:\2020csharp\20200528\Winform\ex04\obj\Debug\ex04.Properties.Resources.resources
+D:\2020csharp\20200528\Winform\ex04\obj\Debug\ex04.csproj.GenerateResource.Cache
+D:\2020csharp\20200528\Winform\ex04\obj\Debug\ex04.exe
+D:\2020csharp\20200528\Winform\ex04\obj\Debug\ex04.pdb

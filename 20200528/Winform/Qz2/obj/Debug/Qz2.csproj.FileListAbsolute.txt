@@ -1,0 +1,14 @@
+D:\2020csharp\20200528\Winform\Qz2\bin\Debug\Qz2.exe.config
+D:\2020csharp\20200528\Winform\Qz2\bin\Debug\Qz2.exe
+D:\2020csharp\20200528\Winform\Qz2\bin\Debug\Qz2.pdb
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.csprojResolveAssemblyReference.cache
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Properties.Resources.resources
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.csproj.GenerateResource.Cache
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.exe
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.pdb
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Form1.resources
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Part5_1.resources
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Part5_2.resources
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Part6_2.resources
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Part6_3.resources
+D:\2020csharp\20200528\Winform\Qz2\obj\Debug\Qz2.Part6_1.resources
