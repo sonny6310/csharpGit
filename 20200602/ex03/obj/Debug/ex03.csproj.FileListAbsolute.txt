@@ -1,0 +1,6 @@
+D:\2020csharp\20200602\ex03\bin\Debug\ex03.exe.config
+D:\2020csharp\20200602\ex03\bin\Debug\ex03.exe
+D:\2020csharp\20200602\ex03\bin\Debug\ex03.pdb
+D:\2020csharp\20200602\ex03\obj\Debug\ex03.csprojResolveAssemblyReference.cache
+D:\2020csharp\20200602\ex03\obj\Debug\ex03.exe
+D:\2020csharp\20200602\ex03\obj\Debug\ex03.pdb
