@@ -24,6 +24,7 @@ namespace ex03
                     if(lotto[i] == lotto[j])
                     {
                         i--;
+                        break;
                     }
                 }
             }
