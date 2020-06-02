@@ -27,10 +27,23 @@ namespace ex03
                     }
                 }
             }
+            Console.WriteLine("----------------------");
+            Console.WriteLine("| 로또 프로그램 v1.0 |");
+            Console.WriteLine("----------------------");
+            Console.WriteLine("|                    |");
+            Console.WriteLine("|                    |");
+            Console.WriteLine("|    6개 랜덤숫자    |");
+            Console.WriteLine("|                    |");
+            Console.Write("| ");
             foreach (var item in lotto)
             {
-                Console.WriteLine(item + " ");
+                Console.Write("{0,-3}",item);
             }
+            Console.Write(" |");
+            Console.WriteLine();
+            Console.WriteLine("|                    |");
+            Console.WriteLine("|                    |");
+            Console.WriteLine("----------------------");
         }
     }
 }
