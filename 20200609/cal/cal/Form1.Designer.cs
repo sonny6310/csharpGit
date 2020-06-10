@@ -297,7 +297,7 @@
             this.button15.BackColor = System.Drawing.Color.Tan;
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("돋움체", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button15.Font = new System.Drawing.Font("돋움체", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button15.Location = new System.Drawing.Point(86, 333);
             this.button15.Margin = new System.Windows.Forms.Padding(1);
             this.button15.Name = "button15";
@@ -313,7 +313,7 @@
             this.button16.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight;
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("돋움체", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button16.Font = new System.Drawing.Font("돋움체", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button16.Location = new System.Drawing.Point(10, 125);
             this.button16.Margin = new System.Windows.Forms.Padding(1);
             this.button16.Name = "button16";

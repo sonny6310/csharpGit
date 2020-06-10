@@ -16,3 +16,12 @@ E:\SW\2020csharp\20200609\cal\cal\obj\Debug\cal.csprojResolveAssemblyReference.c
 E:\SW\2020csharp\20200609\cal\cal\obj\Debug\cal.Form1.resources
 E:\SW\2020csharp\20200609\cal\cal\obj\Debug\cal.Properties.Resources.resources
 E:\SW\2020csharp\20200609\cal\cal\obj\Debug\cal.csproj.GenerateResource.Cache
+D:\2020csharp\20200609\cal\cal\bin\Debug\cal.exe.config
+D:\2020csharp\20200609\cal\cal\obj\Debug\cal.exe
+D:\2020csharp\20200609\cal\cal\obj\Debug\cal.pdb
+D:\2020csharp\20200609\cal\cal\bin\Debug\cal.exe
+D:\2020csharp\20200609\cal\cal\bin\Debug\cal.pdb
+D:\2020csharp\20200609\cal\cal\obj\Debug\cal.csprojResolveAssemblyReference.cache
+D:\2020csharp\20200609\cal\cal\obj\Debug\cal.Form1.resources
+D:\2020csharp\20200609\cal\cal\obj\Debug\cal.Properties.Resources.resources
+D:\2020csharp\20200609\cal\cal\obj\Debug\cal.csproj.GenerateResource.Cache
