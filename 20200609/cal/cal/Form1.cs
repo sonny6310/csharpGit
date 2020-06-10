@@ -90,7 +90,7 @@ namespace cal
 
         private void onEqual(object sender, EventArgs e)
         {
-            textBox1.Text = output2 + "  " + ((Button)sender).Text + "  ";
+            textBox1.Text = output2 + "  " + ((Button)sender).Text;
             if (op == "+")
             {
                 result = result + Convert.ToDouble(output1);
