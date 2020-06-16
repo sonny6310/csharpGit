@@ -1,0 +1,14 @@
+D:\2020csharp\20200615\ex01_oracleConn\bin\Debug\ex01_oracleConn.exe.config
+D:\2020csharp\20200615\ex01_oracleConn\bin\Debug\ex01_oracleConn.exe
+D:\2020csharp\20200615\ex01_oracleConn\bin\Debug\ex01_oracleConn.pdb
+D:\2020csharp\20200615\ex01_oracleConn\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\2020csharp\20200615\ex01_oracleConn\obj\Debug\ex01_oracleConn.csprojResolveAssemblyReference.cache
+D:\2020csharp\20200615\ex01_oracleConn\obj\Debug\ex01_oracleConn.exe
+D:\2020csharp\20200615\ex01_oracleConn\obj\Debug\ex01_oracleConn.pdb
+D:\2020csharp\20200616\ex01_oracleConn\bin\Debug\ex01_oracleConn.exe.config
+D:\2020csharp\20200616\ex01_oracleConn\obj\Debug\ex01_oracleConn.exe
+D:\2020csharp\20200616\ex01_oracleConn\obj\Debug\ex01_oracleConn.pdb
+D:\2020csharp\20200616\ex01_oracleConn\bin\Debug\ex01_oracleConn.exe
+D:\2020csharp\20200616\ex01_oracleConn\bin\Debug\ex01_oracleConn.pdb
+D:\2020csharp\20200616\ex01_oracleConn\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\2020csharp\20200616\ex01_oracleConn\obj\Debug\ex01_oracleConn.csprojResolveAssemblyReference.cache
