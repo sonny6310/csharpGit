@@ -6,3 +6,6 @@ C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.Properties.Re
 C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.csproj.GenerateResource.Cache
 C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.exe
 C:\Users\305\Desktop\20200521\exercise\Q2\que2\que2\obj\Debug\que2.pdb
+D:\2020csharp\Teacher\20200521_Ch6_Prac\exercise\Q2\que2\que2\bin\Debug\que2.exe.config
+D:\2020csharp\Teacher\20200521_Ch6_Prac\exercise\Q2\que2\que2\obj\Debug\que2.exe
+D:\2020csharp\Teacher\20200521_Ch6_Prac\exercise\Q2\que2\que2\obj\Debug\que2.pdb

@@ -13,3 +13,16 @@ D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.W
 D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.WindowForm3.resources
 D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.MacForm1.resources
 D:\강의\이동준ver\04월06일\Simhwa_7\Practice2\MDITest\obj\Debug\MDITest.MacForm2.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\bin\Debug\MDITest.exe.config
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.exe
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.pdb
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.csprojResolveAssemblyReference.cache
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.MacForm1.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.MacForm2.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.MainForm.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.Form_Window.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.Properties.Resources.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.WindowForm1.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.WindowForm2.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.WindowForm3.resources
+D:\2020csharp\Teacher\Ch7\Simhwa\Practice2\MDITest\obj\Debug\MDITest.csproj.GenerateResource.Cache
