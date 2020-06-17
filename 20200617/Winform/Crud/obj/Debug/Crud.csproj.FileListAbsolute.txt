@@ -1,0 +1,9 @@
+D:\2020csharp\20200617\Winform\Crud\bin\Debug\Crud.exe.config
+D:\2020csharp\20200617\Winform\Crud\bin\Debug\Crud.exe
+D:\2020csharp\20200617\Winform\Crud\bin\Debug\Crud.pdb
+D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.csprojResolveAssemblyReference.cache
+D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.Form1.resources
+D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.Properties.Resources.resources
+D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.csproj.GenerateResource.Cache
+D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.exe
+D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.pdb
