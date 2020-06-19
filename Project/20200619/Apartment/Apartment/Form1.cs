@@ -38,7 +38,10 @@ namespace Apartment
                 }
                 else
                 {
-                    MessageBox.Show("아이디 혹은 패스워드가 틀렸습니다.");
+                    tb_id.Clear();
+                    tb_pw.Clear();
+                    MessageBox.Show("ID 혹은 Password가 다릅니다.", "로그인 실패", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    tb_id.Focus();  // ID 입력에 커서 가도록
                 }
             }
             sqlcon.Close();
@@ -46,12 +49,16 @@ namespace Apartment
 
         private void Form1_keyUp(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Enter)   // 엔터 누르면 로그인버튼 눌림
+            if (tb_id.Text != "" && tb_pw.Text != "")
             {
-                login_click(sender, e);
+
+                if (e.KeyCode == Keys.Enter)   // 엔터 누르면 로그인버튼 눌림
+                {
+                    login_click(sender, e);
+                }
             }
-            
-            if(e.KeyCode == Keys.Escape)  // esc 누르면 종료버튼 눌림
+
+            if (e.KeyCode == Keys.Escape)  // esc 누르면 종료버튼 눌림
             {
                 Application.Exit();
             }

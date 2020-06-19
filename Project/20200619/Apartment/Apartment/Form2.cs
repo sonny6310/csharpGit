@@ -29,6 +29,9 @@ namespace Apartment
             //Form 전체화면 시 상태표시줄 가리지 않기
             this.Text = string.Empty;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+
+            //Home 시간
+            lb_homeTime.Text = System.DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
         }
 
         //Structs
@@ -131,6 +134,7 @@ namespace Apartment
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        //자식폼 메소드
         private void OpenChildForm(Form childForm)
         {
             if(currentChildForm != null)
@@ -163,6 +167,12 @@ namespace Apartment
         private void btn_minimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        //Home 실시간 시간 갱신
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lb_homeTime.Text = System.DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
         }
     }
 }

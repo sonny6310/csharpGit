@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
@@ -42,6 +43,8 @@
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.lb_homeTime = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -58,7 +61,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(201, 861);
+            this.panelMenu.Size = new System.Drawing.Size(201, 884);
             this.panelMenu.TabIndex = 0;
             // 
             // iconButton3
@@ -72,7 +75,7 @@
             this.iconButton3.IconColor = System.Drawing.Color.Gainsboro;
             this.iconButton3.IconSize = 32;
             this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 650);
+            this.iconButton3.Location = new System.Drawing.Point(0, 673);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton3.Rotation = 0D;
@@ -95,7 +98,7 @@
             this.iconButton2.IconColor = System.Drawing.Color.Gainsboro;
             this.iconButton2.IconSize = 32;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 375);
+            this.iconButton2.Location = new System.Drawing.Point(0, 387);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton2.Rotation = 0D;
@@ -234,11 +237,12 @@
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(58)))));
+            this.panelDesktop.Controls.Add(this.lb_homeTime);
             this.panelDesktop.Controls.Add(this.label2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(201, 84);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(998, 777);
+            this.panelDesktop.Size = new System.Drawing.Size(998, 800);
             this.panelDesktop.TabIndex = 3;
             // 
             // label2
@@ -248,19 +252,37 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(403, 329);
+            this.label2.Location = new System.Drawing.Point(403, 341);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(195, 78);
             this.label2.TabIndex = 2;
             this.label2.Text = "Resident\r\nManagement";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lb_homeTime
+            // 
+            this.lb_homeTime.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_homeTime.AutoSize = true;
+            this.lb_homeTime.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_homeTime.ForeColor = System.Drawing.Color.Silver;
+            this.lb_homeTime.Location = new System.Drawing.Point(332, 443);
+            this.lb_homeTime.Name = "lb_homeTime";
+            this.lb_homeTime.Size = new System.Drawing.Size(96, 45);
+            this.lb_homeTime.TabIndex = 3;
+            this.lb_homeTime.Text = "시간";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1199, 861);
+            this.ClientSize = new System.Drawing.Size(1199, 884);
             this.ControlBox = false;
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelShadow);
@@ -303,5 +325,7 @@
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconButton btn_minimized;
         private FontAwesome.Sharp.IconButton iconButton4;
+        private System.Windows.Forms.Label lb_homeTime;
+        private System.Windows.Forms.Timer timer1;
     }
 }
