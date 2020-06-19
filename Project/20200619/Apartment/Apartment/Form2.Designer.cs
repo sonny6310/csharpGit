@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
@@ -42,8 +43,8 @@
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.lb_homeTime = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             // panelMenu
             // 
+            this.panelMenu.Controls.Add(this.iconButton5);
             this.panelMenu.Controls.Add(this.iconButton3);
             this.panelMenu.Controls.Add(this.iconButton2);
             this.panelMenu.Controls.Add(this.iconButton1);
@@ -61,8 +63,31 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(201, 884);
+            this.panelMenu.Size = new System.Drawing.Size(201, 898);
             this.panelMenu.TabIndex = 0;
+            // 
+            // iconButton5
+            // 
+            this.iconButton5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.iconButton5.FlatAppearance.BorderSize = 0;
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton5.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.CalendarAlt;
+            this.iconButton5.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton5.IconSize = 32;
+            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton5.Location = new System.Drawing.Point(0, 496);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton5.Rotation = 0D;
+            this.iconButton5.Size = new System.Drawing.Size(201, 180);
+            this.iconButton5.TabIndex = 4;
+            this.iconButton5.Text = "로그 달력";
+            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton5.UseVisualStyleBackColor = true;
+            this.iconButton5.Click += new System.EventHandler(this.btn_cal);
             // 
             // iconButton3
             // 
@@ -75,11 +100,11 @@
             this.iconButton3.IconColor = System.Drawing.Color.Gainsboro;
             this.iconButton3.IconSize = 32;
             this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 673);
+            this.iconButton3.Location = new System.Drawing.Point(0, 694);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton3.Rotation = 0D;
-            this.iconButton3.Size = new System.Drawing.Size(201, 250);
+            this.iconButton3.Size = new System.Drawing.Size(201, 180);
             this.iconButton3.TabIndex = 3;
             this.iconButton3.Text = "프로그램 종료";
             this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -98,11 +123,11 @@
             this.iconButton2.IconColor = System.Drawing.Color.Gainsboro;
             this.iconButton2.IconSize = 32;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 387);
+            this.iconButton2.Location = new System.Drawing.Point(0, 298);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton2.Rotation = 0D;
-            this.iconButton2.Size = new System.Drawing.Size(201, 250);
+            this.iconButton2.Size = new System.Drawing.Size(201, 180);
             this.iconButton2.TabIndex = 2;
             this.iconButton2.Text = "입주민 정보 확인";
             this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -124,7 +149,7 @@
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton1.Rotation = 0D;
-            this.iconButton1.Size = new System.Drawing.Size(201, 250);
+            this.iconButton1.Size = new System.Drawing.Size(201, 180);
             this.iconButton1.TabIndex = 1;
             this.iconButton1.Text = "입주민 정보 관리";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,7 +190,7 @@
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(201, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(998, 75);
+            this.panelTitleBar.Size = new System.Drawing.Size(1237, 75);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
@@ -178,7 +203,7 @@
             this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
             this.iconButton4.IconColor = System.Drawing.Color.Gray;
             this.iconButton4.IconSize = 16;
-            this.iconButton4.Location = new System.Drawing.Point(975, 3);
+            this.iconButton4.Location = new System.Drawing.Point(1214, 3);
             this.iconButton4.Name = "iconButton4";
             this.iconButton4.Rotation = 0D;
             this.iconButton4.Size = new System.Drawing.Size(18, 12);
@@ -195,7 +220,7 @@
             this.btn_minimized.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.btn_minimized.IconColor = System.Drawing.Color.Gray;
             this.btn_minimized.IconSize = 15;
-            this.btn_minimized.Location = new System.Drawing.Point(951, 3);
+            this.btn_minimized.Location = new System.Drawing.Point(1190, 3);
             this.btn_minimized.Name = "btn_minimized";
             this.btn_minimized.Rotation = 0D;
             this.btn_minimized.Size = new System.Drawing.Size(18, 12);
@@ -231,7 +256,7 @@
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelShadow.Location = new System.Drawing.Point(201, 75);
             this.panelShadow.Name = "panelShadow";
-            this.panelShadow.Size = new System.Drawing.Size(998, 9);
+            this.panelShadow.Size = new System.Drawing.Size(1237, 9);
             this.panelShadow.TabIndex = 2;
             // 
             // panelDesktop
@@ -242,8 +267,20 @@
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(201, 84);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(998, 800);
+            this.panelDesktop.Size = new System.Drawing.Size(1237, 814);
             this.panelDesktop.TabIndex = 3;
+            // 
+            // lb_homeTime
+            // 
+            this.lb_homeTime.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_homeTime.AutoSize = true;
+            this.lb_homeTime.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_homeTime.ForeColor = System.Drawing.Color.Silver;
+            this.lb_homeTime.Location = new System.Drawing.Point(451, 450);
+            this.lb_homeTime.Name = "lb_homeTime";
+            this.lb_homeTime.Size = new System.Drawing.Size(96, 45);
+            this.lb_homeTime.TabIndex = 3;
+            this.lb_homeTime.Text = "시간";
             // 
             // label2
             // 
@@ -252,24 +289,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(403, 341);
+            this.label2.Location = new System.Drawing.Point(522, 348);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(195, 78);
             this.label2.TabIndex = 2;
             this.label2.Text = "Resident\r\nManagement";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lb_homeTime
-            // 
-            this.lb_homeTime.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lb_homeTime.AutoSize = true;
-            this.lb_homeTime.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_homeTime.ForeColor = System.Drawing.Color.Silver;
-            this.lb_homeTime.Location = new System.Drawing.Point(332, 443);
-            this.lb_homeTime.Name = "lb_homeTime";
-            this.lb_homeTime.Size = new System.Drawing.Size(96, 45);
-            this.lb_homeTime.TabIndex = 3;
-            this.lb_homeTime.Text = "시간";
             // 
             // timer1
             // 
@@ -282,7 +307,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1199, 884);
+            this.ClientSize = new System.Drawing.Size(1438, 898);
             this.ControlBox = false;
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelShadow);
@@ -291,8 +316,9 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.KeyPreview = true;
-            this.MinimumSize = new System.Drawing.Size(1215, 900);
+            this.MinimumSize = new System.Drawing.Size(1440, 900);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resident Management";
@@ -327,5 +353,6 @@
         private FontAwesome.Sharp.IconButton iconButton4;
         private System.Windows.Forms.Label lb_homeTime;
         private System.Windows.Forms.Timer timer1;
+        private FontAwesome.Sharp.IconButton iconButton5;
     }
 }

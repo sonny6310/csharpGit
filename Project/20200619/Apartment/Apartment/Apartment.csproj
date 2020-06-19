@@ -62,6 +62,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2_cal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_cal.Designer.cs">
+      <DependentUpon>Form2_cal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2_check.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2_cal.resx">
+      <DependentUpon>Form2_cal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2_check.resx">
       <DependentUpon>Form2_check.cs</DependentUpon>

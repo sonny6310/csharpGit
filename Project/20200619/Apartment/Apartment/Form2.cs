@@ -39,6 +39,7 @@ namespace Apartment
         {
             public static Color color1 = Color.FromArgb(249, 88, 155);
             public static Color color2 = Color.FromArgb(24, 161, 251);
+            public static Color color3 = Color.FromArgb(124, 61, 203);
         }
 
         //Methods
@@ -94,6 +95,12 @@ namespace Apartment
             OpenChildForm(new Form2_check());
         }
 
+        private void btn_cal(object sender, EventArgs e)
+        {
+            ActivateBtn(sender, RGBColors.color3);
+            OpenChildForm(new Form2_cal());
+        }
+
         private void btn_close(object sender, EventArgs e)
         {
             Application.Exit();
@@ -109,7 +116,11 @@ namespace Apartment
 
         private void logo_click(object sender, EventArgs e)
         {
+            if(currentChildForm != null)
+            {
+
             currentChildForm.Close();
+            }   
             Reset();
         }
 
@@ -174,5 +185,6 @@ namespace Apartment
         {
             lb_homeTime.Text = System.DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
         }
+
     }
 }
