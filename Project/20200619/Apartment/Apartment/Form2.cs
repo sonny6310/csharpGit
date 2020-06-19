@@ -26,9 +26,7 @@ namespace Apartment
             leftBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
 
-            //Form 전체화면 시 상태표시줄 가리지 않기
             this.Text = string.Empty;
-            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
 
             //Home 시간
             lb_homeTime.Text = System.DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
@@ -162,17 +160,6 @@ namespace Apartment
             childForm.BringToFront();
             childForm.Show();
             lb_titleChildForm.Text = childForm.Text;
-        }
-
-        private void btn_maximize_Click(object sender, EventArgs e)
-        {
-            if(WindowState == FormWindowState.Normal)
-            {
-                WindowState = FormWindowState.Maximized;
-            }else
-            {
-                WindowState = FormWindowState.Normal;
-            }
         }
 
         private void btn_minimize_Click(object sender, EventArgs e)

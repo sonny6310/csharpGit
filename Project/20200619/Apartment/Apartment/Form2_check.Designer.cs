@@ -183,7 +183,7 @@
             this.panel3.Controls.Add(this.groupBox2);
             this.panel3.Location = new System.Drawing.Point(2, 202);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1070, 290);
+            this.panel3.Size = new System.Drawing.Size(1070, 250);
             this.panel3.TabIndex = 5;
             // 
             // groupBox2
@@ -194,7 +194,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.Gainsboro;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1070, 290);
+            this.groupBox2.Size = new System.Drawing.Size(1070, 250);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "입주민 현황";
@@ -206,7 +206,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(3, 18);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1064, 269);
+            this.dataGridView1.Size = new System.Drawing.Size(1064, 229);
             this.dataGridView1.TabIndex = 0;
             // 
             // Form2_check

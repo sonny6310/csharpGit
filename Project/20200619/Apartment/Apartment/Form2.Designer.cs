@@ -37,7 +37,6 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.btn_minimized = new FontAwesome.Sharp.IconButton();
             this.lb_titleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
@@ -183,7 +182,6 @@
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(45)))), ((int)(((byte)(65)))));
-            this.panelTitleBar.Controls.Add(this.iconButton4);
             this.panelTitleBar.Controls.Add(this.btn_minimized);
             this.panelTitleBar.Controls.Add(this.lb_titleChildForm);
             this.panelTitleBar.Controls.Add(this.iconCurrentChildForm);
@@ -194,23 +192,6 @@
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
-            // iconButton4
-            // 
-            this.iconButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.iconButton4.IconColor = System.Drawing.Color.Gray;
-            this.iconButton4.IconSize = 16;
-            this.iconButton4.Location = new System.Drawing.Point(1214, 3);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Rotation = 0D;
-            this.iconButton4.Size = new System.Drawing.Size(18, 12);
-            this.iconButton4.TabIndex = 3;
-            this.iconButton4.UseVisualStyleBackColor = true;
-            this.iconButton4.Click += new System.EventHandler(this.btn_maximize_Click);
-            // 
             // btn_minimized
             // 
             this.btn_minimized.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -220,7 +201,7 @@
             this.btn_minimized.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.btn_minimized.IconColor = System.Drawing.Color.Gray;
             this.btn_minimized.IconSize = 15;
-            this.btn_minimized.Location = new System.Drawing.Point(1190, 3);
+            this.btn_minimized.Location = new System.Drawing.Point(1216, 3);
             this.btn_minimized.Name = "btn_minimized";
             this.btn_minimized.Rotation = 0D;
             this.btn_minimized.Size = new System.Drawing.Size(18, 12);
@@ -350,7 +331,6 @@
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconButton btn_minimized;
-        private FontAwesome.Sharp.IconButton iconButton4;
         private System.Windows.Forms.Label lb_homeTime;
         private System.Windows.Forms.Timer timer1;
         private FontAwesome.Sharp.IconButton iconButton5;
