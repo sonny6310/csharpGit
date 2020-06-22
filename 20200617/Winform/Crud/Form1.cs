@@ -57,7 +57,7 @@ Constraint PK_MemberTable Primary Key(ID)
         {
             try
             {
-                MessageBox.Show($"선택한 값: {dataGridView1[e.ColumnIndex, e.RowIndex].Value}");
+                //MessageBox.Show($"선택한 값: {dataGridView1[e.ColumnIndex, e.RowIndex].Value}");
 
                 tb_id.Text = dataGridView1[0, e.RowIndex].Value.ToString();
                 tb_name.Text = dataGridView1[1, e.RowIndex].Value.ToString();
@@ -72,102 +72,45 @@ Constraint PK_MemberTable Primary Key(ID)
             }
         }
 
+        // ex) A버튼 클릭 시 B에서 이벤트 발생하도록 하기 위해서 설정
+        private bool insertClicked = false;
+        private bool updateClicked = false;
+        private bool deleteClicked = false;
+
         private void insert_click(object sender, EventArgs e)
         {
-            try
-            {
-                WriteLog("Insert 버튼 클릭");
-
-                SqlConnection sqlcon = new SqlConnection(strconn);
-                sqlcon.Open();
-
-
-
-                SqlCommand cmd = new SqlCommand("insert into MemberTable (Name,age,rgdate,bigo) values (@name,@age,getdate(),@bigo)", sqlcon);
-                if (tb_name.Text == "" && tb_age.Text == "" && tb_temp.Text == "")
-                {
-                    MessageBox.Show("값을 입력하시오");
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@name", tb_name.Text);
-                    int age;
-                    cmd.Parameters.AddWithValue("@age", int.TryParse(tb_age.Text, out age));
-                    cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
-                    cmd.ExecuteNonQuery();
-                }
-
-                sqlcon.Close();
-
-                selectQuery();
-            }
-            catch (Exception except)
-            {
-                MessageBox.Show("\t\t-- 오류메시지 --\n" + except.Message + Environment.NewLine + Environment.NewLine + "\t\t-- 오류내용 --\n" + except.StackTrace);
-            }
+            tb_id.Enabled = false;
+            tb_name.BackColor = Color.SkyBlue;
+            tb_age.BackColor = Color.SkyBlue;
+            tb_temp.BackColor = Color.SkyBlue;
+            insertClicked = true;
         }
 
         private void update_click(object sender, EventArgs e)
         {
-            WriteLog("Update 버튼 클릭");
-
-            SqlConnection sqlcon = new SqlConnection(strconn);
-            sqlcon.Open();
-
-            SqlCommand cmd = new SqlCommand("update MemberTable set Name = @name, age = @age, rgdate = getdate(), bigo = @bigo where ID = @ID", sqlcon);
-
-            int age;
-
-            if (tb_name.Text == "" && tb_age.Text == "" && tb_temp.Text == "")
-            {
-
-                DialogResult result = MessageBox.Show($"정말로 ID={tb_id.Text}의 데이터를 초기화 하시겠습니까?", "", MessageBoxButtons.YesNo);
-                if (result == DialogResult.Yes)
-                {
-                    cmd.Parameters.AddWithValue("@ID", tb_id.Text);
-                    cmd.Parameters.AddWithValue("@name", tb_name.Text);
-                    cmd.Parameters.AddWithValue("@age", int.TryParse(tb_age.Text, out age));
-                    cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
-                    cmd.ExecuteNonQuery();
-                }
-
-            }
-            else
-            {
-                cmd.Parameters.AddWithValue("@ID", tb_id.Text);
-                cmd.Parameters.AddWithValue("@name", tb_name.Text);
-                cmd.Parameters.AddWithValue("@age", int.TryParse(tb_age.Text, out age));
-                cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
-                cmd.ExecuteNonQuery();
-            }
-
-            sqlcon.Close();
-
-            selectQuery();
+            tb_id.BackColor = Color.Thistle;
+            tb_name.BackColor = Color.Thistle;
+            tb_age.BackColor = Color.Thistle;
+            tb_temp.BackColor = Color.Thistle;
+            updateClicked = true;
         }
 
         private void delete_click(object sender, EventArgs e)
         {
-            WriteLog("Delete 버튼 클릭");
-
-            SqlConnection sqlcon = new SqlConnection(strconn);
-            sqlcon.Open();
-
-            DialogResult result = MessageBox.Show($"정말로 ID={tb_id.Text}의 데이터를 지우시겠습니까?", "", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                SqlCommand cmd = new SqlCommand("delete from MemberTable where ID = @ID", sqlcon);
-                cmd.Parameters.AddWithValue("@ID", tb_id.Text);
-                cmd.ExecuteNonQuery();
-            }
-
-            sqlcon.Close();
-
-            selectQuery();
+            tb_id.BackColor = Color.DarkSeaGreen;
+            tb_name.BackColor = Color.DarkSeaGreen;
+            tb_age.BackColor = Color.DarkSeaGreen;
+            tb_temp.BackColor = Color.DarkSeaGreen;
+            deleteClicked = true;
         }
 
         private void deleteAll_click(object sender, EventArgs e)
         {
+            tb_id.BackColor = Color.Wheat;
+            tb_name.BackColor = Color.Wheat;
+            tb_age.BackColor = Color.Wheat;
+            tb_temp.BackColor = Color.Wheat;
+
             WriteLog("DeleteAll 버튼 클릭");
 
             SqlConnection sqlcon = new SqlConnection(strconn);
@@ -178,11 +121,20 @@ Constraint PK_MemberTable Primary Key(ID)
             {
                 SqlCommand cmd = new SqlCommand("delete from MemberTable", sqlcon);
                 cmd.ExecuteNonQuery();
+
+                // identity(1,1) (1부터 1씩 자동으로 증가  ::  oracle에서 seq) 을 초기화 하기
+                SqlCommand cmd2 = new SqlCommand("DBCC CHECKIDENT(MemberTable, reseed, 0)", sqlcon);
+                cmd2.ExecuteNonQuery();
             }
 
             sqlcon.Close();
 
             selectQuery();
+
+            tb_id.BackColor = Color.White;
+            tb_name.BackColor = Color.White;
+            tb_age.BackColor = Color.White;
+            tb_temp.BackColor = Color.White;
         }
 
         private void randData_click(object sender, EventArgs e)
@@ -213,5 +165,123 @@ Constraint PK_MemberTable Primary Key(ID)
             }
         }
 
+        private void btn_check(object sender, EventArgs e)
+        {
+            if (insertClicked)
+            {
+                try
+                {
+                    WriteLog("Insert 버튼 클릭");
+
+                    SqlConnection sqlcon = new SqlConnection(strconn);
+                    sqlcon.Open();
+
+
+
+                    SqlCommand cmd = new SqlCommand("insert into MemberTable (Name,age,rgdate,bigo) values (@name,@age,getdate(),@bigo)", sqlcon);
+
+
+
+                    if (tb_name.Text == "" && tb_age.Text == "" && tb_temp.Text == "")
+                    {
+                        MessageBox.Show("값을 입력하시오");
+                    }
+                    else
+                    {
+                        cmd.Parameters.AddWithValue("@name", tb_name.Text);
+                        int age;
+                        int.TryParse(tb_age.Text, out age);
+                        cmd.Parameters.AddWithValue("@age", age);
+                        cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    sqlcon.Close();
+
+                    selectQuery();
+
+                    tb_id.Enabled = true;
+                    insertClicked = false;
+                }
+                catch (Exception except)
+                {
+                    MessageBox.Show("\t\t-- 오류메시지 --\n" + except.Message + Environment.NewLine + Environment.NewLine + "\t\t-- 오류내용 --\n" + except.StackTrace);
+                }
+
+            }
+
+            if (updateClicked)
+            {
+                WriteLog("Update 버튼 클릭");
+
+                SqlConnection sqlcon = new SqlConnection(strconn);
+                sqlcon.Open();
+
+                SqlCommand cmd = new SqlCommand("update MemberTable set Name = @name, age = @age, rgdate = getdate(), bigo = @bigo where ID = @ID", sqlcon);
+
+                int age;
+                int.TryParse(tb_age.Text, out age);
+
+                if (tb_name.Text == "" && tb_age.Text == "" && tb_temp.Text == "")
+                {
+
+                    DialogResult result = MessageBox.Show($"정말로 ID={tb_id.Text}의 데이터를 초기화 하시겠습니까?", "", MessageBoxButtons.YesNo);
+                    if (result == DialogResult.Yes)
+                    {
+                        cmd.Parameters.AddWithValue("@ID", tb_id.Text);
+                        cmd.Parameters.AddWithValue("@name", tb_name.Text);
+                        cmd.Parameters.AddWithValue("@age", age);
+                        cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                }
+                else
+                {
+                    cmd.Parameters.AddWithValue("@ID", tb_id.Text);
+                    cmd.Parameters.AddWithValue("@name", tb_name.Text);
+                    cmd.Parameters.AddWithValue("@age", age);
+                    cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlcon.Close();
+
+                selectQuery();
+
+                updateClicked = false;
+            }
+
+            if (deleteClicked)
+            {
+                WriteLog("Delete 버튼 클릭");
+
+                SqlConnection sqlcon = new SqlConnection(strconn);
+                sqlcon.Open();
+
+                DialogResult result = MessageBox.Show($"정말로 ID={tb_id.Text}의 데이터를 지우시겠습니까?", "", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    SqlCommand cmd = new SqlCommand("delete from MemberTable where ID = @ID", sqlcon);
+                    cmd.Parameters.AddWithValue("@ID", tb_id.Text);
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlcon.Close();
+
+                selectQuery();
+
+                deleteClicked = false;
+            }
+
+            tb_id.BackColor = Color.White;
+            tb_name.BackColor = Color.White;
+            tb_age.BackColor = Color.White;
+            tb_temp.BackColor = Color.White;
+            tb_id.Clear();
+            tb_name.Clear();
+            tb_age.Clear();
+            tb_temp.Clear();
+        }
     }
 }
