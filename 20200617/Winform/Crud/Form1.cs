@@ -92,7 +92,7 @@ Constraint PK_MemberTable Primary Key(ID)
 
         private void insert_click(object sender, EventArgs e)
         {
-            tb_id.Enabled = false;
+            tb_id.ReadOnly = true;
             tb_name.BackColor = Color.SkyBlue;
             tb_age.BackColor = Color.SkyBlue;
             tb_temp.BackColor = Color.SkyBlue;
@@ -154,28 +154,44 @@ Constraint PK_MemberTable Primary Key(ID)
         {
             WriteLog("RandData 버튼 클릭");
 
-            try
-            {
-                SqlConnection sqlcon = new SqlConnection(strconn);
-                sqlcon.Open();
+            tb_id.BackColor = SystemColors.ControlDark;
+            tb_name.BackColor = SystemColors.ControlDark;
+            tb_age.BackColor = SystemColors.ControlDark;
+            tb_temp.BackColor = SystemColors.ControlDark;
 
-                for (int i = 0; i < 5; i++)
+            DialogResult result = MessageBox.Show("랜덤데이터 5개를 생성합니다", "랜덤데이터", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+
+            if(result == DialogResult.OK)
+            {
+                try
                 {
-                    SqlCommand cmd = new SqlCommand("insert into MemberTable (Name,age,rgdate,bigo) values (@name,@age,getdate(),@bigo)", sqlcon);
-                    cmd.Parameters.AddWithValue("@name", RandData.getName());
-                    cmd.Parameters.AddWithValue("@age", RandData.getAge());
-                    cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
-                    cmd.ExecuteNonQuery();
+                    SqlConnection sqlcon = new SqlConnection(strconn);
+                    sqlcon.Open();
+
+                    for (int i = 0; i < 5; i++)
+                    {
+                        SqlCommand cmd = new SqlCommand("insert into MemberTable (Name,age,rgdate,bigo) values (@name,@age,getdate(),@bigo)", sqlcon);
+                        cmd.Parameters.AddWithValue("@name", RandData.getName());
+                        cmd.Parameters.AddWithValue("@age", RandData.getAge());
+                        cmd.Parameters.AddWithValue("@bigo", tb_temp.Text);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    sqlcon.Close();
+
+                    selectQuery();
+
                 }
-
-                sqlcon.Close();
-
-                selectQuery();
+                catch (Exception except)
+                {
+                    MessageBox.Show("\t\t-- 오류메시지 --\n" + except.Message + Environment.NewLine + Environment.NewLine + "\t\t-- 오류내용 --\n" + except.StackTrace);
+                }
             }
-            catch (Exception except)
-            {
-                MessageBox.Show("\t\t-- 오류메시지 --\n" + except.Message + Environment.NewLine + Environment.NewLine + "\t\t-- 오류내용 --\n" + except.StackTrace);
-            }
+
+            tb_id.BackColor = Color.White;
+            tb_name.BackColor = Color.White;
+            tb_age.BackColor = Color.White;
+            tb_temp.BackColor = Color.White;
         }
 
         private void btn_check(object sender, EventArgs e)
@@ -213,7 +229,7 @@ Constraint PK_MemberTable Primary Key(ID)
 
                     selectQuery();
 
-                    tb_id.Enabled = true;
+                    tb_id.ReadOnly = false;
                     insertClicked = false;
                 }
                 catch (Exception except)
@@ -295,6 +311,25 @@ Constraint PK_MemberTable Primary Key(ID)
             tb_name.Clear();
             tb_age.Clear();
             tb_temp.Clear();
+        }
+
+        //숫자와 백스페이스만 입력되게 하는 메소드
+        private void onlyNumber(KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))    
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void tb_id_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            onlyNumber(e);
+        }
+
+        private void tb_age_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            onlyNumber(e);
         }
     }
 }

@@ -66,6 +66,7 @@
             this.tb_id.Name = "tb_id";
             this.tb_id.Size = new System.Drawing.Size(305, 21);
             this.tb_id.TabIndex = 1;
+            this.tb_id.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_id_KeyPress);
             // 
             // btn_insert
             // 
@@ -122,6 +123,7 @@
             this.tb_age.Name = "tb_age";
             this.tb_age.Size = new System.Drawing.Size(305, 21);
             this.tb_age.TabIndex = 6;
+            this.tb_age.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_age_KeyPress);
             // 
             // tb_temp
             // 
