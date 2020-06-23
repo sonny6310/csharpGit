@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,13 +13,24 @@ using System.Windows.Forms;
 
 namespace Crud
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialForm // 부모폼 변경
     {
         string strconn = "Data Source=192.168.0.200;Initial Catalog=jh_20200611;Persist Security Info=True;User Id=sa;Password=8765432!";
 
         public Form1()
         {
             InitializeComponent();
+
+            this.Text = "MS SQL DB 연습";
+
+            // material skin
+            // https://ourcodeworld.com/articles/read/441/how-to-use-material-design-controls-with-c-in-your-winforms-application
+            MaterialSkinManager msm = MaterialSkinManager.Instance;
+            msm.AddFormToManage(this);
+            msm.Theme = MaterialSkinManager.Themes.LIGHT;
+            msm.ColorScheme = new ColorScheme(Primary.Blue400, Primary.Blue500, Primary.Blue500, Accent.LightBlue200, TextShade.WHITE);
+
+
             selectQuery();
 
             /*

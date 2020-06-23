@@ -52,7 +52,7 @@
             this.btn_rand.FlatAppearance.BorderSize = 0;
             this.btn_rand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_rand.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_rand.Location = new System.Drawing.Point(10, 11);
+            this.btn_rand.Location = new System.Drawing.Point(10, 79);
             this.btn_rand.Name = "btn_rand";
             this.btn_rand.Size = new System.Drawing.Size(64, 23);
             this.btn_rand.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             // tb_id
             // 
-            this.tb_id.Location = new System.Drawing.Point(43, 58);
+            this.tb_id.Location = new System.Drawing.Point(43, 126);
             this.tb_id.Name = "tb_id";
             this.tb_id.Size = new System.Drawing.Size(305, 21);
             this.tb_id.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.btn_insert.FlatAppearance.BorderSize = 0;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_insert.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_insert.Location = new System.Drawing.Point(80, 11);
+            this.btn_insert.Location = new System.Drawing.Point(80, 79);
             this.btn_insert.Name = "btn_insert";
             this.btn_insert.Size = new System.Drawing.Size(43, 23);
             this.btn_insert.TabIndex = 2;
@@ -87,7 +87,7 @@
             this.btn_update.FlatAppearance.BorderSize = 0;
             this.btn_update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_update.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_update.Location = new System.Drawing.Point(129, 11);
+            this.btn_update.Location = new System.Drawing.Point(129, 79);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(50, 23);
             this.btn_update.TabIndex = 3;
@@ -101,7 +101,7 @@
             this.btn_delete.FlatAppearance.BorderSize = 0;
             this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_delete.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_delete.Location = new System.Drawing.Point(185, 11);
+            this.btn_delete.Location = new System.Drawing.Point(185, 79);
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Size = new System.Drawing.Size(47, 23);
             this.btn_delete.TabIndex = 4;
@@ -111,21 +111,21 @@
             // 
             // tb_name
             // 
-            this.tb_name.Location = new System.Drawing.Point(43, 99);
+            this.tb_name.Location = new System.Drawing.Point(43, 167);
             this.tb_name.Name = "tb_name";
             this.tb_name.Size = new System.Drawing.Size(305, 21);
             this.tb_name.TabIndex = 5;
             // 
             // tb_age
             // 
-            this.tb_age.Location = new System.Drawing.Point(43, 142);
+            this.tb_age.Location = new System.Drawing.Point(43, 210);
             this.tb_age.Name = "tb_age";
             this.tb_age.Size = new System.Drawing.Size(305, 21);
             this.tb_age.TabIndex = 6;
             // 
             // tb_temp
             // 
-            this.tb_temp.Location = new System.Drawing.Point(43, 183);
+            this.tb_temp.Location = new System.Drawing.Point(43, 251);
             this.tb_temp.Multiline = true;
             this.tb_temp.Name = "tb_temp";
             this.tb_temp.Size = new System.Drawing.Size(305, 171);
@@ -134,7 +134,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 61);
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(10, 129);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(16, 12);
             this.label1.TabIndex = 8;
@@ -143,7 +144,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 102);
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(8, 170);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 9;
@@ -152,7 +154,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 145);
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(8, 213);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 12);
             this.label3.TabIndex = 10;
@@ -161,7 +164,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 186);
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(8, 254);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 12);
             this.label4.TabIndex = 11;
@@ -170,7 +174,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(354, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(354, 80);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(523, 342);
@@ -183,7 +187,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(238, 11);
+            this.button1.Location = new System.Drawing.Point(238, 79);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(61, 23);
             this.button1.TabIndex = 13;
@@ -198,7 +202,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Window;
-            this.button2.Location = new System.Drawing.Point(305, 11);
+            this.button2.Location = new System.Drawing.Point(305, 79);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(43, 23);
             this.button2.TabIndex = 14;
@@ -210,7 +214,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(889, 367);
+            this.ClientSize = new System.Drawing.Size(889, 439);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
@@ -227,7 +231,6 @@
             this.Controls.Add(this.tb_id);
             this.Controls.Add(this.btn_rand);
             this.Name = "Form1";
-            this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

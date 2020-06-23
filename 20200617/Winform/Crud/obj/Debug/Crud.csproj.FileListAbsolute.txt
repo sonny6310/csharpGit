@@ -7,3 +7,4 @@ D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.Properties.Resources.resource
 D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.csproj.GenerateResource.Cache
 D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.exe
 D:\2020csharp\20200617\Winform\Crud\obj\Debug\Crud.pdb
+D:\2020csharp\20200617\Winform\Crud\bin\Debug\MaterialSkin.dll
