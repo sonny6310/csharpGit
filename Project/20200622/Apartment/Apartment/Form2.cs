@@ -110,6 +110,11 @@ namespace Apartment
             {
                 btn_close(sender, e);
             }
+
+            if (e.KeyCode == Keys.Home)
+            {
+                logo_click(sender, e);
+            }
         }
 
         private void logo_click(object sender, EventArgs e)

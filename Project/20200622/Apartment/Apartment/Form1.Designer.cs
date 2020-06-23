@@ -46,6 +46,7 @@
             this.tb_id.BackColor = System.Drawing.SystemColors.Control;
             this.tb_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_id.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_id.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.tb_id.Location = new System.Drawing.Point(43, 271);
             this.tb_id.Name = "tb_id";
             this.tb_id.Size = new System.Drawing.Size(215, 19);
@@ -56,6 +57,7 @@
             this.tb_pw.BackColor = System.Drawing.SystemColors.Control;
             this.tb_pw.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_pw.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_pw.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.tb_pw.Location = new System.Drawing.Point(43, 353);
             this.tb_pw.Name = "tb_pw";
             this.tb_pw.PasswordChar = '●';
