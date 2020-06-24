@@ -37,7 +37,7 @@ namespace Apartment
         {
             public static Color color1 = Color.FromArgb(249, 88, 155);
             public static Color color2 = Color.FromArgb(24, 161, 251);
-            public static Color color3 = Color.FromArgb(124, 61, 203);
+            public static Color color3 = Color.FromArgb(164, 123, 221);
         }
 
         //Methods

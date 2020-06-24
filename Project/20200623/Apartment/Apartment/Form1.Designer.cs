@@ -64,7 +64,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SkyBlue;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(113)))), ((int)(((byte)(163)))));
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -85,7 +85,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 230);
+            this.panel1.Size = new System.Drawing.Size(300, 238);
             this.panel1.TabIndex = 8;
             // 
             // label1
@@ -151,8 +151,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.tb_id);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.tb_pw);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
             this.Name = "Form1";

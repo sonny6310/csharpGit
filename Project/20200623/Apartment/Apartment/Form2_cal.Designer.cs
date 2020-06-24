@@ -31,25 +31,25 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.monthCalendar1 = new Apartment.SizableCalendar();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -85,6 +85,15 @@
             this.panel7.Size = new System.Drawing.Size(519, 505);
             this.panel7.TabIndex = 3;
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.groupBox1);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel10.Location = new System.Drawing.Point(0, 50);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(519, 355);
+            this.panel10.TabIndex = 4;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.listBox1);
@@ -103,11 +112,28 @@
             this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 19;
             this.listBox1.Location = new System.Drawing.Point(3, 18);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(513, 334);
             this.listBox1.TabIndex = 0;
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel9.Location = new System.Drawing.Point(0, 405);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(519, 100);
+            this.panel9.TabIndex = 3;
+            // 
+            // panel8
+            // 
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(519, 50);
+            this.panel8.TabIndex = 2;
             // 
             // panel6
             // 
@@ -129,18 +155,10 @@
             this.panel5.Size = new System.Drawing.Size(539, 505);
             this.panel5.TabIndex = 1;
             // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 547);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1084, 15);
-            this.panel3.TabIndex = 1;
-            // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(61)))), ((int)(((byte)(203)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(123)))), ((int)(((byte)(221)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(336, 445);
@@ -169,6 +187,14 @@
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 1;
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 547);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1084, 15);
+            this.panel3.TabIndex = 1;
+            // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -177,39 +203,20 @@
             this.panel1.Size = new System.Drawing.Size(1084, 42);
             this.panel1.TabIndex = 0;
             // 
-            // panel8
-            // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(519, 50);
-            this.panel8.TabIndex = 2;
-            // 
-            // panel9
-            // 
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 405);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(519, 100);
-            this.panel9.TabIndex = 3;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.groupBox1);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(0, 50);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(519, 355);
-            this.panel10.TabIndex = 4;
-            // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.monthCalendar1.Font = new System.Drawing.Font("Calibri Light", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.monthCalendar1.Location = new System.Drawing.Point(5, 4);
+            this.monthCalendar1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.monthCalendar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.monthCalendar1.Font = new System.Drawing.Font("D2Coding", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.monthCalendar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(163)))), ((int)(((byte)(201)))));
+            this.monthCalendar1.Location = new System.Drawing.Point(4, 9);
             this.monthCalendar1.MaxSelectionCount = 1;
             this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.ShowTodayCircle = false;
             this.monthCalendar1.TabIndex = 3;
+            this.monthCalendar1.TitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(163)))), ((int)(((byte)(201)))));
+            this.monthCalendar1.TitleForeColor = System.Drawing.Color.Gainsboro;
+            this.monthCalendar1.TrailingForeColor = System.Drawing.Color.Gray;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
             // Form2_cal
@@ -227,10 +234,10 @@
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel10.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
