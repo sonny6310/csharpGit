@@ -21,6 +21,15 @@ namespace Crud
         {
             InitializeComponent();
 
+            //listview 열 설정
+            listView1.View = View.Details;           //컬럼형식으로 변경
+            listView1.FullRowSelect = true;          //Row 전체 선택
+            listView1.Columns.Add("ID", 50);        //컬럼추가
+            listView1.Columns.Add("Name", 70);
+            listView1.Columns.Add("age", 50);
+            listView1.Columns.Add("rgdate", 170);
+            listView1.Columns.Add("bigo", 177);
+
             this.Text = "MS SQL DB 연습";
 
             // material skin
@@ -62,8 +71,57 @@ Constraint PK_MemberTable Primary Key(ID)
             SqlDataAdapter adpt = new SqlDataAdapter("select * from Membertable ORDER BY len(id) asc, id asc;", sqlcon);
             adpt.Fill(ds);
 
+            //-----------------------------------------------------------------------------------------------------------
+            // Console에서 열 값
+            foreach (DataColumn dc in ds.Tables[0].Columns)
+            {
+                Console.Write(dc.ColumnName + "\t");
+            }
+
+            Console.WriteLine();
+
+            // Console에서 행 정보들
+            foreach (DataRow r in ds.Tables[0].Rows)
+            {
+                Console.WriteLine(r["ID"] + "\t" + r["name"] + "\t" + r["age"] + "\t" + r["rgdate"] + "\t" + r["bigo"]);
+            }
+            Console.WriteLine();
+            //-----------------------------------------------------------------------------------------------------------
+
+            //Tables --> DB에 존재하는 테이블 배열
+
+            //datagridview에 데이터 넣기
             dataGridView1.DataSource = ds.Tables[0];
+
+            // listview 데이터 넣기
+            listView1.Items.Clear();
+            foreach (DataRow r in ds.Tables[0].Rows)
+            {
+                string[] data = { r["ID"] + "", r["name"] + "", r["age"] + "", r["rgdate"] + "", r["bigo"] + "" };
+                listView1.Items.Add(new ListViewItem(data));
+            }
+
             sqlcon.Close();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                // 현재 포커스가 있는 항목의 Item을 얻어내기 : FocusedItem, listview1의 모든 하위항목의 컬렉션을 가져올 때는 SubItems
+                // SubItems[0], [1], [2] 는 본인이 Columns.Add로 추가한 순서 그대로
+                tb_id.Text = listView1.FocusedItem.SubItems[0].Text;
+                tb_name.Text = listView1.FocusedItem.SubItems[1].Text;
+                tb_age.Text = listView1.FocusedItem.SubItems[2].Text;
+                tb_temp.Text = listView1.FocusedItem.SubItems[4].Text;
+
+                WriteLog($"리스트뷰로 선택한 데이터: [ID]{listView1.FocusedItem.SubItems[0].Text}\t[Name]{listView1.FocusedItem.SubItems[1].Text}\t[age]{listView1.FocusedItem.SubItems[2].Text}\t[rgdate]{listView1.FocusedItem.SubItems[3].Text}\t[bigo]{listView1.FocusedItem.SubItems[4].Text}");
+
+            }
+            catch (Exception except)
+            {
+                MessageBox.Show("\t\t-- 오류메시지 --\n" + except.Message + Environment.NewLine + Environment.NewLine + "\t\t-- 오류내용 --\n" + except.StackTrace);
+            }
         }
 
         private void dataGridView(object sender, DataGridViewCellEventArgs e)
@@ -77,13 +135,15 @@ Constraint PK_MemberTable Primary Key(ID)
                 tb_age.Text = dataGridView1[2, e.RowIndex].Value.ToString();
                 tb_temp.Text = dataGridView1[4, e.RowIndex].Value.ToString();
 
-                WriteLog($"선택한 값: {dataGridView1[e.ColumnIndex, e.RowIndex].Value}");
+                WriteLog($"그리드뷰로 선택한 값: {dataGridView1[e.ColumnIndex, e.RowIndex].Value}");
             }
             catch (Exception except)
             {
                 MessageBox.Show("\t\t-- 오류메시지 --\n" + except.Message + Environment.NewLine + Environment.NewLine + "\t\t-- 오류내용 --\n" + except.StackTrace);
             }
         }
+
+        // ----------------------------------------------------------------------- DB ---------------------------------------------------------------------
 
         // ex) A버튼 클릭 시 B에서 이벤트 발생하도록 하기 위해서 설정
         private bool insertClicked = false;
@@ -148,6 +208,11 @@ Constraint PK_MemberTable Primary Key(ID)
             tb_name.BackColor = Color.White;
             tb_age.BackColor = Color.White;
             tb_temp.BackColor = Color.White;
+
+            tb_id.Clear();
+            tb_name.Clear();
+            tb_age.Clear();
+            tb_temp.Clear();
         }
 
         private void randData_click(object sender, EventArgs e)
@@ -161,7 +226,7 @@ Constraint PK_MemberTable Primary Key(ID)
 
             DialogResult result = MessageBox.Show("랜덤데이터 5개를 생성합니다", "랜덤데이터", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
 
-            if(result == DialogResult.OK)
+            if (result == DialogResult.OK)
             {
                 try
                 {
@@ -316,7 +381,7 @@ Constraint PK_MemberTable Primary Key(ID)
         //숫자와 백스페이스만 입력되게 하는 메소드
         private void onlyNumber(KeyPressEventArgs e)
         {
-            if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))    
+            if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))
             {
                 e.Handled = true;
             }
@@ -331,5 +396,6 @@ Constraint PK_MemberTable Primary Key(ID)
         {
             onlyNumber(e);
         }
+
     }
 }
