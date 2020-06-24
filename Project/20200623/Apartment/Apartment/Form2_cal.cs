@@ -57,11 +57,11 @@ namespace Apartment
             dateClick = false;
         }
 
-        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
         {
             listBox1.Items.Clear();
 
-            DateTime dt = monthCalendar1.SelectionRange.Start;
+            DateTime dt = monthCalendar1.SelectionRange.End;
             dt1 = dt.ToString("yyyy/MM/dd");
 
             IEnumerable<string> log = System.IO.File.ReadLines(@"D:\2020csharp\20200617\Winform\Crud\bin\Debug\LogFolder\Log.txt");
@@ -73,6 +73,7 @@ namespace Apartment
                     listBox1.Items.Insert(0, Environment.NewLine);
                 }
             }
+
             dateClick = true;
         }
     }

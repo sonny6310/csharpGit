@@ -208,16 +208,16 @@
             this.monthCalendar1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.monthCalendar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.monthCalendar1.Font = new System.Drawing.Font("D2Coding", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.monthCalendar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(163)))), ((int)(((byte)(201)))));
+            this.monthCalendar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(201)))));
             this.monthCalendar1.Location = new System.Drawing.Point(4, 9);
             this.monthCalendar1.MaxSelectionCount = 1;
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.ShowTodayCircle = false;
             this.monthCalendar1.TabIndex = 3;
-            this.monthCalendar1.TitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(163)))), ((int)(((byte)(201)))));
+            this.monthCalendar1.TitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(201)))));
             this.monthCalendar1.TitleForeColor = System.Drawing.Color.Gainsboro;
             this.monthCalendar1.TrailingForeColor = System.Drawing.Color.Gray;
-            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
+            this.monthCalendar1.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateSelected);
             // 
             // Form2_cal
             // 
