@@ -30,11 +30,8 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -43,7 +40,6 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -55,8 +51,14 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -66,6 +68,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.textBox9);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.textBox8);
@@ -97,51 +101,24 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(276, 117);
+            this.textBox9.Location = new System.Drawing.Point(276, 116);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 22);
             this.textBox9.TabIndex = 9;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(198, 125);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 14);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "영유아 유무";
-            // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(276, 86);
+            this.textBox8.Location = new System.Drawing.Point(276, 85);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 22);
             this.textBox8.TabIndex = 8;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(198, 94);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 14);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "애완견 유무";
-            // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(276, 55);
+            this.textBox7.Location = new System.Drawing.Point(276, 54);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 22);
             this.textBox7.TabIndex = 7;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(198, 63);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 14);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "차 번호(2)";
             // 
             // textBox6
             // 
@@ -153,7 +130,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 94);
+            this.label6.Location = new System.Drawing.Point(9, 89);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 14);
             this.label6.TabIndex = 13;
@@ -165,7 +142,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Location = new System.Drawing.Point(400, 115);
+            this.button3.Location = new System.Drawing.Point(400, 127);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 12;
@@ -178,7 +155,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(400, 69);
+            this.button2.Location = new System.Drawing.Point(400, 81);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 11;
@@ -191,7 +168,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(400, 23);
+            this.button1.Location = new System.Drawing.Point(400, 35);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 10;
@@ -208,7 +185,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 156);
+            this.label5.Location = new System.Drawing.Point(9, 151);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 14);
             this.label5.TabIndex = 8;
@@ -221,15 +198,6 @@
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 6;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(199, 32);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 14);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "차 번호(1)";
-            // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(74, 116);
@@ -240,7 +208,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 125);
+            this.label3.Location = new System.Drawing.Point(9, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 14);
             this.label3.TabIndex = 4;
@@ -256,7 +224,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 63);
+            this.label2.Location = new System.Drawing.Point(9, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 14);
             this.label2.TabIndex = 2;
@@ -272,7 +240,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 32);
+            this.label1.Location = new System.Drawing.Point(9, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 14);
             this.label1.TabIndex = 0;
@@ -338,6 +306,58 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(276, 147);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 22);
+            this.textBox10.TabIndex = 20;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(199, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 14);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "차 번호(1)";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(199, 58);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 14);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "차 번호(2)";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(199, 89);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(70, 14);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "애완견 유무";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(199, 120);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(70, 14);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "영유아 유무";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(199, 151);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(31, 14);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "비고";
+            // 
             // Form2_insert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -369,7 +389,6 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
@@ -386,11 +405,14 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
     }
 }
