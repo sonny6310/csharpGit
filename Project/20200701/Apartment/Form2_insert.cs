@@ -127,24 +127,31 @@ namespace Apartment
                             cmd.Parameters.AddWithValue("@pets", petBit);
                             cmd.Parameters.AddWithValue("@baby", babyBit);
                             cmd.Parameters.AddWithValue("@remark", "전입");
-                            int returntest = cmd.ExecuteNonQuery();
+                            int insert = cmd.ExecuteNonQuery();
 
-                            string pet = (petBit.Equals(true)) ? "Y" : "N";
-                            string baby = (babyBit.Equals(true)) ? "Y" : "N";
-                            WriteLog($"[등록(전입)] {tb_building.Text}동 {tb_unit.Text}호    세대주 명:{tb_head.Text}    구성원 수:{tb_member.Text}    연락처:{tb_contact.Text}    차 번호1:{tb_car1.Text}    차 번호2:{tb_car2.Text}    애완동물:{pet}    영유아:{baby}");
+                            if (insert == 1)
+                            {
+                                string pet = (petBit.Equals(true)) ? "Y" : "N";
+                                string baby = (babyBit.Equals(true)) ? "Y" : "N";
+                                WriteLog($"[등록(전입)] {tb_building.Text}동 {tb_unit.Text}호    세대주 명:{tb_head.Text}    구성원 수:{tb_member.Text}    연락처:{tb_contact.Text}    차 번호1:{tb_car1.Text}    차 번호2:{tb_car2.Text}    애완동물:{pet}    영유아:{baby}");
 
-                            rb_babyN.Checked = false;
-                            rb_babyY.Checked = false;
-                            rb_petN.Checked = false;
-                            rb_petY.Checked = false;
-                            tb_building.Clear();
-                            tb_unit.Clear();
-                            tb_member.Clear();
-                            tb_head.Clear();
-                            tb_contact.Clear();
-                            tb_car1.Clear();
-                            tb_car2.Clear();
-                            tb_remark.Clear();
+                                rb_babyN.Checked = false;
+                                rb_babyY.Checked = false;
+                                rb_petN.Checked = false;
+                                rb_petY.Checked = false;
+                                tb_building.Clear();
+                                tb_unit.Clear();
+                                tb_member.Clear();
+                                tb_head.Clear();
+                                tb_contact.Clear();
+                                tb_car1.Clear();
+                                tb_car2.Clear();
+                                tb_remark.Clear();
+                            }
+                            else
+                            {
+                                MessageBox.Show("등록에 실패하였습니다.", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                     }
                 }
@@ -204,24 +211,32 @@ namespace Apartment
                     cmd.Parameters.AddWithValue("@pets", petBit);
                     cmd.Parameters.AddWithValue("@baby", babyBit);
                     cmd.Parameters.AddWithValue("@remark", tb_remark.Text);
-                    cmd.ExecuteNonQuery();
+                    int update = cmd.ExecuteNonQuery();
 
-                    string pet = (petBit.Equals(true)) ? "Y" : "N";
-                    string baby = (babyBit.Equals(true)) ? "Y" : "N";
-                    WriteLog($"[수정({tb_remark.Text})] {tb_building.Text}동 {tb_unit.Text}호    세대주 명:{tb_head.Text}    구성원 수:{tb_member.Text}    연락처:{tb_contact.Text}    차 번호1:{tb_car1.Text}    차 번호2:{tb_car2.Text}    애완동물:{pet}    영유아:{baby}");
+                    if (update == 1)
+                    {
+                        string pet = (petBit.Equals(true)) ? "Y" : "N";
+                        string baby = (babyBit.Equals(true)) ? "Y" : "N";
+                        WriteLog($"[수정({tb_remark.Text})] {tb_building.Text}동 {tb_unit.Text}호    세대주 명:{tb_head.Text}    구성원 수:{tb_member.Text}    연락처:{tb_contact.Text}    차 번호1:{tb_car1.Text}    차 번호2:{tb_car2.Text}    애완동물:{pet}    영유아:{baby}");
 
-                    rb_babyN.Checked = false;
-                    rb_babyY.Checked = false;
-                    rb_petN.Checked = false;
-                    rb_petY.Checked = false;
-                    tb_building.Clear();
-                    tb_unit.Clear();
-                    tb_member.Clear();
-                    tb_head.Clear();
-                    tb_contact.Clear();
-                    tb_car1.Clear();
-                    tb_car2.Clear();
-                    tb_remark.Clear();
+                        rb_babyN.Checked = false;
+                        rb_babyY.Checked = false;
+                        rb_petN.Checked = false;
+                        rb_petY.Checked = false;
+                        tb_building.Clear();
+                        tb_unit.Clear();
+                        tb_member.Clear();
+                        tb_head.Clear();
+                        tb_contact.Clear();
+                        tb_car1.Clear();
+                        tb_car2.Clear();
+                        tb_remark.Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("수정에 실패하였습니다.", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
                 }
                 sqlcon.Close();
 
@@ -259,6 +274,19 @@ namespace Apartment
                         cmd.ExecuteNonQuery();
 
                         WriteLog($"[삭제(전출)] {tb_building.Text}동 {tb_unit.Text}호");
+
+                        rb_babyN.Checked = false;
+                        rb_babyY.Checked = false;
+                        rb_petN.Checked = false;
+                        rb_petY.Checked = false;
+                        tb_building.Clear();
+                        tb_unit.Clear();
+                        tb_member.Clear();
+                        tb_head.Clear();
+                        tb_contact.Clear();
+                        tb_car1.Clear();
+                        tb_car2.Clear();
+                        tb_remark.Clear();
                     }
                     else
                     {
@@ -268,19 +296,6 @@ namespace Apartment
                 sqlcon.Close();
 
                 selectQuery();
-
-                rb_babyN.Checked = false;
-                rb_babyY.Checked = false;
-                rb_petN.Checked = false;
-                rb_petY.Checked = false;
-                tb_building.Clear();
-                tb_unit.Clear();
-                tb_member.Clear();
-                tb_head.Clear();
-                tb_contact.Clear();
-                tb_car1.Clear();
-                tb_car2.Clear();
-                tb_remark.Clear();
             }
             catch (Exception except)
             {

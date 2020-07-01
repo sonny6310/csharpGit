@@ -24,7 +24,10 @@ namespace Apartment
             calendar.sendDate += new calendar.sendDateDele(cal_sendDate);
         }
 
+        private string path = @"LogFolder\Log.txt";
+        private bool dateClick = false;
         private string dt1;
+
         private void cal_sendDate(string msg)
         {
             dt1 = msg;
@@ -50,8 +53,6 @@ namespace Apartment
             dateClick = true;
         }
 
-        private string path = @"LogFolder\Log.txt";
-        private bool dateClick = false;
         private void btn_check_Click(object sender, EventArgs e)
         {
 
