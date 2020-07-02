@@ -1,0 +1,35 @@
+-------폼/유저컨트롤 B---------------
+namespace WindowsFormsApplication1
+public partial class B : UserControl
+//
+
+private delegate sendDateDele(string date)
+public static event sendDateDele sendDate;
+
+
+
+이벤트/메소드 등에서
+string asdf = "asdf"
+sendDate(asdf)
+
+//
+----------------폼 A-----------------
+using WindowsFormsApplication1;
+
+namespace Apartment
+public partial class A : Form
+
+public A()
+{
+	
+	B.sendDate += new B.sendDateDele(getDateFromB)
+}
+
+private string getDate;
+private void getDateFromB(string dateB)
+{
+	getDate = dateB
+	
+	B에서 받아온 값을 저장한 변수 getDate를 가지고
+	A에서 사용하면 됨. 
+}
