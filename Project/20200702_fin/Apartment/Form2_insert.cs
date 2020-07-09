@@ -395,6 +395,7 @@ namespace Apartment
                 listView1.Sorting = System.Windows.Forms.SortOrder.Ascending;
             }
 
+            //https://bigenergy.tistory.com/318 참고
             listView1.ListViewItemSorter = new Sorter();      // * 1
             Sorter s = (Sorter)listView1.ListViewItemSorter;
             s.Order = listView1.Sorting;
