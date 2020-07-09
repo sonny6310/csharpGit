@@ -156,7 +156,6 @@ namespace Apartment
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
             panelDesktop.Controls.Add(childForm);
-            panelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
         }
