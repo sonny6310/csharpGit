@@ -37,12 +37,12 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.calendar1 = new WindowsFormsApplication1.calendar();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_check = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.calendar1 = new Apartment.calendar();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -145,17 +145,6 @@
             this.panel5.Size = new System.Drawing.Size(550, 547);
             this.panel5.TabIndex = 1;
             // 
-            // calendar1
-            // 
-            this.calendar1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.calendar1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.calendar1.Location = new System.Drawing.Point(55, 35);
-            this.calendar1.MaximumSize = new System.Drawing.Size(437, 419);
-            this.calendar1.MinimumSize = new System.Drawing.Size(437, 419);
-            this.calendar1.Name = "calendar1";
-            this.calendar1.Size = new System.Drawing.Size(437, 419);
-            this.calendar1.TabIndex = 5;
-            // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -204,6 +193,17 @@
             this.panel3.Size = new System.Drawing.Size(1084, 15);
             this.panel3.TabIndex = 1;
             // 
+            // calendar1
+            // 
+            this.calendar1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.calendar1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.calendar1.Location = new System.Drawing.Point(55, 35);
+            this.calendar1.MaximumSize = new System.Drawing.Size(437, 419);
+            this.calendar1.MinimumSize = new System.Drawing.Size(437, 419);
+            this.calendar1.Name = "calendar1";
+            this.calendar1.Size = new System.Drawing.Size(437, 419);
+            this.calendar1.TabIndex = 5;
+            // 
             // Form2_cal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -242,6 +242,6 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel1;
-        private WindowsFormsApplication1.calendar calendar1;
+        private Apartment.calendar calendar1;
     }
 }

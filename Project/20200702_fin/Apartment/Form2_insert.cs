@@ -108,7 +108,7 @@ namespace Apartment
                                 }
                                 else
                                 {
-                                    SqlCommand cmd = new SqlCommand("update resident set head = @head, member = @member, contact = @contact, car1 = @car1, car2 = @car2, pets = @pets, baby = @baby, remark = @remark, reg_date = getdate() where building = @building and unit = @unit;", sqlcon);
+                                    SqlCommand cmd = new SqlCommand("update resident set head = @head, member = @member, contact = @contact, car1 = @car1, car2 = @car2, pets = @pets, baby = @baby, remark = @remark, reg_date = getdate(), register = getdate() where building = @building and unit = @unit;", sqlcon);
                                     cmd.Parameters.AddWithValue("@building", Convert.ToInt32(tb_building.Text));
                                     cmd.Parameters.AddWithValue("@unit", Convert.ToInt32(tb_unit.Text));
                                     cmd.Parameters.AddWithValue("@head", tb_head.Text);
@@ -137,7 +137,7 @@ namespace Apartment
 
                                     cmd.Parameters.AddWithValue("@pets", petBit);
                                     cmd.Parameters.AddWithValue("@baby", babyBit);
-                                    cmd.Parameters.AddWithValue("@remark", tb_remark.Text);
+                                    cmd.Parameters.AddWithValue("@remark", "전입");
                                     cmd.ExecuteNonQuery();
 
                                     string pet = (petBit.Equals(true)) ? "Y" : "N";

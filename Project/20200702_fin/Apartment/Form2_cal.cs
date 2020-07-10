@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApplication1;
 
 namespace Apartment
 {
@@ -16,11 +15,7 @@ namespace Apartment
         public Form2_cal()
         {
             InitializeComponent();
-            // MySizableCalendar.cs : MonthCalendar클래스를 상속 받아서 재정의
-            // Form2_cal.Designer.cs 에서
-            // this.monthCalendar1 = new System.Windows.Forms.MonthCalendar(); 를 this.monthCalendar1 = new MySizableCalendar(); 로 변경하고
-            // private System.Windows.Forms.MonthCalendar monthCalendar1; 를 private MySizableCalendar monthCalendar1; 로 변경하면
-            // font size에 의해 monthcalendar1의 크기변경이 가능하다.
+
             calendar.sendDate += new calendar.sendDateDele(cal_sendDate);
         }
 
