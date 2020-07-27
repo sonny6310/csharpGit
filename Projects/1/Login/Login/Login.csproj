@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3368DB8-AF10-40E9-97E6-8CC5735C7776}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Login</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AfterLoginMainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\AfterLoginMainPage.Designer.cs">
+      <DependentUpon>AfterLoginMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ChangeMyPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\ChangeMyPW.Designer.cs">
+      <DependentUpon>ChangeMyPW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ComManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\ComManage.Designer.cs">
+      <DependentUpon>ComManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DBConnection.cs" />
+    <Compile Include="Common\Log.cs" />
+    <Compile Include="Company\ChangeComMyInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\ChangeComMyInfo.Designer.cs">
+      <DependentUpon>ChangeComMyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\ManagePost\ApplicationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\ManagePost\ApplicationList.Designer.cs">
+      <DependentUpon>ApplicationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\ManagePost\Edit_post_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\ManagePost\Edit_post_detail.Designer.cs">
+      <DependentUpon>Edit_post_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\ManagePost\show_resume_this_application.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\ManagePost\show_resume_this_application.Designer.cs">
+      <DependentUpon>show_resume_this_application.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\PostRecruit\checkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\PostRecruit\checkForm.Designer.cs">
+      <DependentUpon>checkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\PostRecruit\PostInsert.cs" />
+    <Compile Include="Common\Com_customer.cs" />
+    <Compile Include="Common\Customer.cs" />
+    <Compile Include="Company\SearchResume\Show_Resume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\SearchResume\Show_Resume.Designer.cs">
+      <DependentUpon>Show_Resume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\ChangeInMyInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\ChangeInMyInfo.Designer.cs">
+      <DependentUpon>ChangeInMyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\CompanyInfo\InfoItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Individual\CompanyInfo\InfoItem.Designer.cs">
+      <DependentUpon>InfoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\IMemberMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\IMemberMainForm.Designer.cs">
+      <DependentUpon>IMemberMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\IMenu1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\IMenu1.Designer.cs">
+      <DependentUpon>IMenu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\CompanyInfo\IMenu2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Individual\CompanyInfo\IMenu2.Designer.cs">
+      <DependentUpon>IMenu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Resume_menu3\IMenu3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Individual\Resume_menu3\IMenu3.Designer.cs">
+      <DependentUpon>IMenu3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\ApplyCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\ApplyCompany.Designer.cs">
+      <DependentUpon>ApplyCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\ApplyInfo.cs" />
+    <Compile Include="Individual\JobRecruitment\checkApply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\checkApply.Designer.cs">
+      <DependentUpon>checkApply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\PostInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Individual\JobRecruitment\PostInfo.Designer.cs">
+      <DependentUpon>PostInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Resume_menu3\InsertResume.cs" />
+    <Compile Include="Individual\Resume_menu3\ResumeInfo.cs" />
+    <Compile Include="Individual\Resume_menu3\Resume_License.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\Resume_menu3\Resume_License.Designer.cs">
+      <DependentUpon>Resume_License.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Resume_menu3\Resume_LocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\Resume_menu3\Resume_LocationForm.Designer.cs">
+      <DependentUpon>Resume_LocationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Review\IMenu4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Individual\Review\IMenu4.Designer.cs">
+      <DependentUpon>IMenu4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Review\Select_Review_for_Writing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\Review\Select_Review_for_Writing.Designer.cs">
+      <DependentUpon>Select_Review_for_Writing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Review\View_Review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\Review\View_Review.Designer.cs">
+      <DependentUpon>View_Review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual\Review\Write_Review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual\Review\Write_Review.Designer.cs">
+      <DependentUpon>Write_Review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\IDFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\IDFind.Designer.cs">
+      <DependentUpon>IDFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\PostRecruit\Menu1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Company\PostRecruit\Menu1.Designer.cs">
+      <DependentUpon>Menu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\ListRecruit\CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Company\ListRecruit\Menu2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Company\ListRecruit\Menu2.Designer.cs">
+      <DependentUpon>Menu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\SearchResume\Menu3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Company\SearchResume\Menu3.Designer.cs">
+      <DependentUpon>Menu3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\ManagePost\Menu4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Company\ManagePost\Menu4.Designer.cs">
+      <DependentUpon>Menu4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\PWFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\PWFind.Designer.cs">
+      <DependentUpon>PWFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Company\ListRecruit\WriteDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\ListRecruit\WriteDetail.Designer.cs">
+      <DependentUpon>WriteDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Common\AfterLoginMainPage.resx">
+      <DependentUpon>AfterLoginMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\ChangeMyPW.resx">
+      <DependentUpon>ChangeMyPW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\ComManage.resx">
+      <DependentUpon>ComManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\ChangeComMyInfo.resx">
+      <DependentUpon>ChangeComMyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\ManagePost\ApplicationList.resx">
+      <DependentUpon>ApplicationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\ManagePost\show_resume_this_application.resx">
+      <DependentUpon>show_resume_this_application.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\SearchResume\Show_Resume.resx">
+      <DependentUpon>Show_Resume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\ChangeInMyInfo.resx">
+      <DependentUpon>ChangeInMyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\CompanyInfo\InfoItem.resx">
+      <DependentUpon>InfoItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\IMemberMainForm.resx">
+      <DependentUpon>IMemberMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\JobRecruitment\IMenu1.resx">
+      <DependentUpon>IMenu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\CompanyInfo\IMenu2.resx">
+      <DependentUpon>IMenu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\JobRecruitment\PostInfo.resx">
+      <DependentUpon>PostInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\Resume_menu3\IMenu3.resx">
+      <DependentUpon>IMenu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\Review\IMenu4.resx">
+      <DependentUpon>IMenu4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\Review\View_Review.resx">
+      <DependentUpon>View_Review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual\Review\Write_Review.resx">
+      <DependentUpon>Write_Review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\PostRecruit\Menu1.resx">
+      <DependentUpon>Menu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\ListRecruit\Menu2.resx">
+      <DependentUpon>Menu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\SearchResume\Menu3.resx">
+      <DependentUpon>Menu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\ManagePost\Menu4.resx">
+      <DependentUpon>Menu4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Company\ListRecruit\WriteDetail.resx">
+      <DependentUpon>WriteDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

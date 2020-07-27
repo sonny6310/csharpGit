@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3892B64C-E3DD-40B5-AFCC-166E972F9B19}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PcrommV2</RootNamespace>
+    <AssemblyName>PcrommV2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminLogin.Designer.cs">
+      <DependentUpon>adminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartdata.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="foodItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="foodItem.Designer.cs">
+      <DependentUpon>foodItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginData.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managerLogin.designer.cs">
+      <DependentUpon>managerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuLoad.cs" />
+    <Compile Include="OrderItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderItem.Designer.cs">
+      <DependentUpon>OrderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="adminLogin.resx">
+      <DependentUpon>adminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foodItem.resx">
+      <DependentUpon>foodItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managerLogin.resx">
+      <DependentUpon>managerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderItem.resx">
+      <DependentUpon>OrderItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\logo_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\chorizo-mozarella-gnocchi-bake-cropped.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\button_0003_dessert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0000_noodle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0001_food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0002_Allfood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0003_drink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0004_dessert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0005_cafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0002_Allfood01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0004_dessert01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0001_food01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0000_noodle01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0003_drink01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\btn_0005_cafe01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\img\logo_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
